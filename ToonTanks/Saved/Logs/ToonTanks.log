@@ -1,8 +1,8 @@
-﻿Log file open, 07/16/20 17:44:38
+﻿Log file open, 07/16/20 18:34:44
 LogInit: Display: Running engine for game: ToonTanks
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.777424
+LogStats: Stats thread started at 2.715263
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -144,7 +144,7 @@ LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line: 
+LogInit: Command Line:  -EpicPortal -epicusername=MasterMarchewa -epicuserid=7117d0b82afb4e4d8013890d53dcc394 -epiclocale=en
 LogInit: Base Directory: D:/Programy/Unreal Engine/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
@@ -194,469 +194,541 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.07.16-15.44.38:845][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.07.16-15.44.38:845][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.07.16-15.44.38:845][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Engine.ini]
-[2020.07.16-15.44.38:845][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.07.16-15.44.38:845][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2020.07.16-15.44.38:845][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2020.07.16-15.44.38:845][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Engine.ini]
-[2020.07.16-15.44.38:845][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Engine.ini]
-[2020.07.16-15.44.38:845][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.07.16-15.44.38:845][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.07.16-15.44.38:845][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.07.16-15.44.38:845][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.07.16-15.44.38:845][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.07.16-15.44.38:845][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.07.16-15.44.38:845][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.07.16-15.44.38:845][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.07.16-15.44.38:845][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.07.16-15.44.38:845][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.07.16-15.44.38:845][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.07.16-15.44.38:846][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.07.16-15.44.38:846][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.07.16-15.44.38:846][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.07.16-15.44.38:846][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Engine.ini]
-[2020.07.16-15.44.38:846][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.07.16-15.44.38:846][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.07.16-15.44.38:846][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.07.16-15.44.38:846][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.07.16-15.44.38:846][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.07.16-15.44.38:846][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.07.16-15.44.38:846][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.07.16-15.44.38:846][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.07.16-15.44.38:846][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.07.16-15.44.38:846][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.07.16-15.44.38:846][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.07.16-15.44.38:846][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.07.16-15.44.38:846][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.07.16-15.44.38:846][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Engine.ini]
-[2020.07.16-15.44.38:846][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Engine.ini]
-[2020.07.16-15.44.38:848][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.07.16-15.44.38:848][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.07.16-15.44.38:848][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.07.16-15.44.38:848][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.07.16-15.44.38:848][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.07.16-15.44.38:848][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.07.16-15.44.38:848][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.07.16-15.44.38:849][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.07.16-15.44.38:850][  0]LogInit: Selected Device Profile: [Windows]
-[2020.07.16-15.44.38:850][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.07.16-15.44.38:850][  0]LogHAL: Display: Platform has ~ 8 GB [8448389120 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.07.16-15.44.38:850][  0]LogInit: Going up to parent DeviceProfile []
-[2020.07.16-15.44.38:850][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.07.16-15.44.38:850][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.07.16-15.44.38:851][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.07.16-15.44.38:852][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Engine.ini]
-[2020.07.16-15.44.38:852][  0]LogInit: Computer: DESKTOP-B3O8TIQ
-[2020.07.16-15.44.38:852][  0]LogInit: User: PiotrDobrasiewicz
-[2020.07.16-15.44.38:852][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.07.16-15.44.38:852][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.07.16-15.44.38:853][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.07.16-15.44.38:853][  0]LogMemory: Platform Memory Stats for Windows
-[2020.07.16-15.44.38:853][  0]LogMemory: Process Physical Memory: 114.29 MB used, 114.29 MB peak
-[2020.07.16-15.44.38:853][  0]LogMemory: Process Virtual Memory: 98.30 MB used, 98.30 MB peak
-[2020.07.16-15.44.38:853][  0]LogMemory: Physical Memory: 4136.36 MB used,  3920.65 MB free, 8057.01 MB total
-[2020.07.16-15.44.38:853][  0]LogMemory: Virtual Memory: 5146.28 MB used,  134212584.00 MB free, 134217728.00 MB total
-[2020.07.16-15.44.38:859][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.07.16-15.44.38:902][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.07.16-15.44.38:906][  0]LogInit: Using OS detected language (pl-PL).
-[2020.07.16-15.44.38:906][  0]LogInit: Using OS detected locale (pl-PL).
-[2020.07.16-15.44.38:907][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
-[2020.07.16-15.44.38:908][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
-[2020.07.16-15.44.38:908][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
-[2020.07.16-15.44.38:908][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
-[2020.07.16-15.44.38:908][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
-[2020.07.16-15.44.38:908][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
-[2020.07.16-15.44.38:908][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
-[2020.07.16-15.44.38:908][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
-[2020.07.16-15.44.38:909][  0]LogInit: Setting process to per monitor DPI aware
-[2020.07.16-15.44.38:947][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.07.16-15.44.38:947][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.07.16-15.44.39:207][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.07.16-15.44.39:207][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.07.16-15.44.39:207][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.07.16-15.44.39:207][  0]LogD3D11RHI: D3D11 adapters:
-[2020.07.16-15.44.39:292][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2020.07.16-15.44.39:292][  0]LogD3D11RHI:       4055/0/4028 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.07.16-15.44.39:332][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2020.07.16-15.44.39:332][  0]LogD3D11RHI:       128/0/4028 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.07.16-15.44.39:335][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.07.16-15.44.39:335][  0]LogD3D11RHI:       0/0/4028 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.07.16-15.44.39:335][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.07.16-15.44.39:397][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.07.16-15.44.39:397][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2020.07.16-15.44.39:397][  0]LogWindows: EnumDisplayDevices:
-[2020.07.16-15.44.39:397][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2020.07.16-15.44.39:398][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2020.07.16-15.44.39:398][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2020.07.16-15.44.39:398][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.07.16-15.44.39:398][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2020.07.16-15.44.39:398][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.07.16-15.44.39:398][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.07.16-15.44.39:398][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
-[2020.07.16-15.44.39:457][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.07.16-15.44.39:463][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2020.07.16-15.44.39:463][  0]LogD3D11RHI: Async texture creation enabled
-[2020.07.16-15.44.39:487][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.07.16-15.44.39:939][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.07.16-15.44.39:967][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.07.16-15.44.39:967][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.07.16-15.44.39:967][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.07.16-15.44.39:967][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.07.16-15.44.39:967][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.07.16-15.44.39:967][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.07.16-15.44.39:967][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.07.16-15.44.39:967][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.07.16-15.44.39:967][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.07.16-15.44.39:967][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.07.16-15.44.39:995][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.07.16-15.44.39:996][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.07.16-15.44.40:008][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.07.16-15.44.40:021][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.07.16-15.44.40:033][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.07.16-15.44.40:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.07.16-15.44.40:061][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.07.16-15.44.40:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.07.16-15.44.40:086][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.07.16-15.44.40:119][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.07.16-15.44.40:119][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.07.16-15.44.40:140][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.07.16-15.44.40:140][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.07.16-15.44.40:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.07.16-15.44.40:163][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.07.16-15.44.40:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.07.16-15.44.40:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.07.16-15.44.40:185][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.07.16-15.44.40:195][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.07.16-15.44.40:263][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Intermediate/Shaders/WorkingDirectory/16076/).
-[2020.07.16-15.44.40:263][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/miszc/AppData/Local/Temp/UnrealShaderWorkingDir/13F8D02E494FB632DA99EBA358614568/'.
-[2020.07.16-15.44.40:264][  0]LogXGEController: Cleaning working directory: C:/Users/miszc/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.07.16-15.44.40:264][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.07.16-15.44.40:264][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.07.16-15.44.40:264][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.07.16-15.44.41:238][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.07.16-15.44.41:322][  0]LogDerivedDataCache: Loaded boot cache 0.08s 75MB C:/Users/miszc/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.07.16-15.44.41:322][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/miszc/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.07.16-15.44.41:323][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.07.16-15.44.41:323][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.07.16-15.44.41:323][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.07.16-15.44.41:323][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.07.16-15.44.41:337][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.07.16-15.44.41:337][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.07.16-15.44.41:337][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.07.16-15.44.41:339][  0]LogDerivedDataCache: Using Local data cache path C:/Users/miszc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.07.16-15.44.41:339][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.07.16-15.44.41:339][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.07.16-15.44.41:400][  0]LogSlate: Using FreeType 2.10.0
-[2020.07.16-15.44.41:401][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.07.16-15.44.41:436][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
-[2020.07.16-15.44.41:700][  0]LogInit: Selected Device Profile: [Windows]
-[2020.07.16-15.44.41:850][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.07.16-15.44.41:850][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.07.16-15.44.41:850][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.07.16-15.44.41:850][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.07.16-15.44.41:850][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.07.16-15.44.41:867][  0]LogNetVersion: ToonTanks 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 281104731)
-[2020.07.16-15.44.42:406][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000014ADCCDAF80), frame # 0
-[2020.07.16-15.44.42:406][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000014ADCC7CE00), frame # 0
-[2020.07.16-15.44.42:407][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000014ADCCCDE00), frame # 0
-[2020.07.16-15.44.42:468][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.053978 seconds
-[2020.07.16-15.44.42:477][  0]LogUObjectArray: 15913 objects as part of root set at end of initial load.
-[2020.07.16-15.44.42:477][  0]LogUObjectAllocator: 3964304 out of 0 bytes used by permanent object pool.
-[2020.07.16-15.44.42:477][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.07.16-15.44.42:897][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.07.16-15.44.42:902][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.07.16-15.44.43:011][  0]SourceControl: Source control is disabled
-[2020.07.16-15.44.43:011][  0]SourceControl: Source control is disabled
-[2020.07.16-15.44.43:016][  0]SourceControl: Source control is disabled
-[2020.07.16-15.44.43:019][  0]SourceControl: Source control is disabled
-[2020.07.16-15.44.43:027][  0]SourceControl: Source control is disabled
-[2020.07.16-15.44.43:313][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.07.16-15.44.43:337][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.07.16-15.44.43:337][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.07.16-15.44.43:392][  0]LogOcInput: OculusInput pre-init called
-[2020.07.16-15.44.43:404][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.07.16-15.44.43:404][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.07.16-15.44.43:473][  0]LogEngine: Initializing Engine...
-[2020.07.16-15.44.43:475][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.07.16-15.44.43:475][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.07.16-15.44.43:476][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.07.16-15.44.43:622][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.07.16-15.44.43:631][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.07.16-15.44.43:631][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000014ADFEDC800), frame # 0
-[2020.07.16-15.44.43:631][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000014ADFE5BB00), frame # 0
-[2020.07.16-15.44.43:664][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.07.16-15.44.43:664][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.07.16-15.44.43:664][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.07.16-15.44.43:664][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.07.16-15.44.43:664][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.07.16-15.44.43:664][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.07.16-15.44.43:664][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.07.16-15.44.43:664][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.07.16-15.44.43:665][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.07.16-15.44.43:665][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.07.16-15.44.43:678][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.07.16-15.44.43:678][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.07.16-15.44.44:459][  0]LogAudioMixer: Display: Using Audio Device Głośniki (Conexant SmartAudio HD)
-[2020.07.16-15.44.44:463][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.07.16-15.44.44:465][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.07.16-15.44.44:465][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.07.16-15.44.44:466][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.07.16-15.44.44:467][  0]LogInit: FAudioDevice initialized.
-[2020.07.16-15.44.44:468][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.07.16-15.44.44:578][  0]LogDerivedDataCache: Saved boot cache 0.11s 75MB C:/Users/miszc/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.07.16-15.44.44:580][  0]LogInit: Texture streaming: Enabled
-[2020.07.16-15.44.44:602][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.07.16-15.44.44:602][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.07.16-15.44.44:610][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.07.16-15.44.44:669][  0]LogInit: Transaction tracking system initialized
-[2020.07.16-15.44.44:694][  0]BlueprintLog: New page: Editor Load
-[2020.07.16-15.44.44:780][  0]LocalizationService: Localization service is disabled
-[2020.07.16-15.44.44:967][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.07.16-15.44.44:967][  0]LogCook: Display: Mobile HDR setting 1
-[2020.07.16-15.44.45:138][  0]LogFileCache: Scanning file cache for directory 'D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/' took 0.00s
-[2020.07.16-15.44.45:479][  0]SourceControl: Source control is disabled
-[2020.07.16-15.44.45:480][  0]LogUnrealEdMisc: Loading editor; pre map load, took 9.814
-[2020.07.16-15.44.45:480][  0]Cmd: MAP LOAD FILE="../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.07.16-15.44.45:480][  0]LightingResults: New page: Lighting Build
-[2020.07.16-15.44.45:481][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.07.16-15.44.45:481][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.16-15.44.45:481][  0]MapCheck: New page: Map Check
-[2020.07.16-15.44.45:481][  0]LightingResults: New page: Lighting Build
-[2020.07.16-15.44.45:492][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000014ADFEDC800), frame # 0
-[2020.07.16-15.44.45:492][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000014ADFE5BB00), frame # 0
-[2020.07.16-15.44.45:493][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
-[2020.07.16-15.44.45:590][  0]LogAIModule: Creating AISystem for world Main
-[2020.07.16-15.44.45:590][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000014AD2DB9A00), frame # 0
-[2020.07.16-15.44.45:590][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000014AD3479440), frame # 0
-[2020.07.16-15.44.45:597][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.07.16-15.44.45:610][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
-[2020.07.16-15.44.45:611][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.07.16-15.44.45:611][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,095ms to complete.
-[2020.07.16-15.44.45:611][  0]LogFileHelpers: Loading map 'Main' took 0.131
-[2020.07.16-15.44.45:613][  0]LogUnrealEdMisc: Total Editor Startup Time, took 9.947
-[2020.07.16-15.44.45:761][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.16-15.44.45:770][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.16-15.44.45:778][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.16-15.44.45:787][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.16-15.44.45:799][  0]LogCollectionManager: Loaded 0 collections in 0.000874 seconds
-[2020.07.16-15.44.45:815][  0]LogFileCache: Scanning file cache for directory 'D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Collections/' took 0.00s
-[2020.07.16-15.44.45:815][  0]LogFileCache: Scanning file cache for directory 'D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Developers/PiotrDobrasiewicz/Collections/' took 0.00s
-[2020.07.16-15.44.45:815][  0]LogFileCache: Scanning file cache for directory 'D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Collections/' took 0.00s
-[2020.07.16-15.44.45:815][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 3428 classes and 824 folders.
-[2020.07.16-15.44.45:818][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.07.16-15.44.45:873][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.07.16-15.44.45:874][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
-[2020.07.16-15.44.45:953][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.07.16-15.44.45:956][  0]LogSlate: Took 0.000915 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.07.16-15.44.45:962][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.07.16-15.44.46:063][  0]LogRenderer: Reallocating scene render targets to support 964x432 Format 10 NumSamples 1 (Frame:1).
-[2020.07.16-15.44.46:273][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2020.07.16-15.44.46:274][  0]LogLoad: (Engine Initialization) Total time: 10.61 seconds
-[2020.07.16-15.44.46:274][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.07.16-15.44.46:347][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.07.16-15.44.46:384][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.07.16-15.44.46:402][  1]LogAssetRegistry: Asset discovery search completed in 4.9675 seconds
-[2020.07.16-15.44.46:409][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
-[2020.07.16-15.45.19:569][550]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.07.16-15.45.19:602][550]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/ToonTanks.PawnBase
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Engine.ini]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Engine.ini]
+[2020.07.16-16.34.45:338][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Engine.ini]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Engine.ini]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.07.16-16.34.45:338][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.07.16-16.34.45:339][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.07.16-16.34.45:339][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.07.16-16.34.45:339][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.07.16-16.34.45:339][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.07.16-16.34.45:339][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.07.16-16.34.45:339][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.07.16-16.34.45:339][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Engine.ini]
+[2020.07.16-16.34.45:339][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Engine.ini]
+[2020.07.16-16.34.45:341][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.07.16-16.34.45:341][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.16-16.34.45:341][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.16-16.34.45:341][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.07.16-16.34.45:341][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.16-16.34.45:341][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.07.16-16.34.45:341][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.16-16.34.45:341][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.16-16.34.45:341][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.16-16.34.45:341][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.16-16.34.45:341][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.16-16.34.45:341][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.16-16.34.45:341][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.16-16.34.45:341][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.16-16.34.45:341][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.16-16.34.45:341][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.16-16.34.45:342][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.16-16.34.45:343][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.16-16.34.45:343][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.07.16-16.34.45:343][  0]LogHAL: Display: Platform has ~ 8 GB [8448389120 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.07.16-16.34.45:343][  0]LogInit: Going up to parent DeviceProfile []
+[2020.07.16-16.34.45:343][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.16-16.34.45:343][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.16-16.34.45:344][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.07.16-16.34.45:345][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Config/Windows/Engine.ini]
+[2020.07.16-16.34.45:345][  0]LogInit: Computer: DESKTOP-B3O8TIQ
+[2020.07.16-16.34.45:345][  0]LogInit: User: PiotrDobrasiewicz
+[2020.07.16-16.34.45:345][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.07.16-16.34.45:345][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.16-16.34.45:346][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.07.16-16.34.45:346][  0]LogMemory: Platform Memory Stats for Windows
+[2020.07.16-16.34.45:346][  0]LogMemory: Process Physical Memory: 114.36 MB used, 114.37 MB peak
+[2020.07.16-16.34.45:346][  0]LogMemory: Process Virtual Memory: 98.18 MB used, 98.18 MB peak
+[2020.07.16-16.34.45:346][  0]LogMemory: Physical Memory: 4448.91 MB used,  3608.11 MB free, 8057.01 MB total
+[2020.07.16-16.34.45:346][  0]LogMemory: Virtual Memory: 5146.28 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2020.07.16-16.34.45:356][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.07.16-16.34.45:404][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.07.16-16.34.45:405][  0]LogInit: Using OS detected language (pl-PL).
+[2020.07.16-16.34.45:405][  0]LogInit: Using OS detected locale (pl-PL).
+[2020.07.16-16.34.45:407][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2020.07.16-16.34.45:407][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2020.07.16-16.34.45:407][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2020.07.16-16.34.45:407][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2020.07.16-16.34.45:407][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2020.07.16-16.34.45:407][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2020.07.16-16.34.45:407][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2020.07.16-16.34.45:407][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2020.07.16-16.34.45:412][  0]LogInit: Setting process to per monitor DPI aware
+[2020.07.16-16.34.45:462][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.07.16-16.34.45:462][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.07.16-16.34.45:747][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.16-16.34.45:747][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.07.16-16.34.45:747][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.07.16-16.34.45:747][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.16-16.34.45:842][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2020.07.16-16.34.45:842][  0]LogD3D11RHI:       4055/0/4028 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.07.16-16.34.45:886][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.07.16-16.34.45:886][  0]LogD3D11RHI:       128/0/4028 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.07.16-16.34.45:892][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.16-16.34.45:892][  0]LogD3D11RHI:       0/0/4028 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.16-16.34.45:892][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.16-16.34.45:959][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.16-16.34.45:960][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2020.07.16-16.34.45:960][  0]LogWindows: EnumDisplayDevices:
+[2020.07.16-16.34.45:960][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2020.07.16-16.34.45:960][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.07.16-16.34.45:961][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.07.16-16.34.45:961][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.07.16-16.34.45:961][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2020.07.16-16.34.45:961][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.07.16-16.34.45:961][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.07.16-16.34.45:961][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2020.07.16-16.34.46:026][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.07.16-16.34.46:030][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.07.16-16.34.46:030][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.16-16.34.46:052][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.07.16-16.34.46:584][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.07.16-16.34.46:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.07.16-16.34.46:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.07.16-16.34.46:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.07.16-16.34.46:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.07.16-16.34.46:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.07.16-16.34.46:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.07.16-16.34.46:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.07.16-16.34.46:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.07.16-16.34.46:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.07.16-16.34.46:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.07.16-16.34.46:659][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.07.16-16.34.46:659][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.07.16-16.34.46:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.07.16-16.34.46:687][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.07.16-16.34.46:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.07.16-16.34.46:711][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.07.16-16.34.46:729][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.07.16-16.34.46:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.07.16-16.34.46:766][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.07.16-16.34.46:798][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.07.16-16.34.46:798][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.07.16-16.34.46:818][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.07.16-16.34.46:818][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.07.16-16.34.46:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.07.16-16.34.46:845][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.07.16-16.34.46:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.07.16-16.34.46:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.07.16-16.34.46:866][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.07.16-16.34.46:875][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.07.16-16.34.46:946][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Intermediate/Shaders/WorkingDirectory/6472/).
+[2020.07.16-16.34.46:946][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/miszc/AppData/Local/Temp/UnrealShaderWorkingDir/B171386C4953A504786C05803560761B/'.
+[2020.07.16-16.34.46:947][  0]LogXGEController: Cleaning working directory: C:/Users/miszc/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.07.16-16.34.46:947][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.07.16-16.34.46:947][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.07.16-16.34.46:947][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.16-16.34.48:016][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.16-16.34.48:156][  0]LogDerivedDataCache: Loaded boot cache 0.14s 75MB C:/Users/miszc/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.16-16.34.48:156][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/miszc/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.07.16-16.34.48:156][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.16-16.34.48:156][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.16-16.34.48:156][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.16-16.34.48:156][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.07.16-16.34.48:175][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.07.16-16.34.48:175][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.16-16.34.48:175][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.07.16-16.34.48:177][  0]LogDerivedDataCache: Using Local data cache path C:/Users/miszc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.07.16-16.34.48:177][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.07.16-16.34.48:177][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.07.16-16.34.48:279][  0]LogSlate: Using FreeType 2.10.0
+[2020.07.16-16.34.48:279][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.16-16.34.48:327][  0]LogAssetRegistry: FAssetRegistry took 0.0047 seconds to start up
+[2020.07.16-16.34.48:632][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.16-16.34.48:772][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.16-16.34.48:772][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.07.16-16.34.48:772][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.07.16-16.34.48:772][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.07.16-16.34.48:772][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.07.16-16.34.48:791][  0]LogNetVersion: ToonTanks 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 281104731)
+[2020.07.16-16.34.49:393][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000027C815CAF80), frame # 0
+[2020.07.16-16.34.49:393][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027C815A0A40), frame # 0
+[2020.07.16-16.34.49:394][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027C815C1E00), frame # 0
+[2020.07.16-16.34.49:459][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.056871 seconds
+[2020.07.16-16.34.49:465][  0]LogUObjectArray: 15913 objects as part of root set at end of initial load.
+[2020.07.16-16.34.49:465][  0]LogUObjectAllocator: 3964304 out of 0 bytes used by permanent object pool.
+[2020.07.16-16.34.49:465][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.16-16.34.49:872][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.16-16.34.49:878][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.16-16.34.50:255][  0]SourceControl: Source control is disabled
+[2020.07.16-16.34.50:255][  0]SourceControl: Source control is disabled
+[2020.07.16-16.34.50:259][  0]SourceControl: Source control is disabled
+[2020.07.16-16.34.50:264][  0]SourceControl: Source control is disabled
+[2020.07.16-16.34.50:277][  0]SourceControl: Source control is disabled
+[2020.07.16-16.34.50:706][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.16-16.34.50:741][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.16-16.34.50:741][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.16-16.34.50:826][  0]LogOcInput: OculusInput pre-init called
+[2020.07.16-16.34.50:841][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.07.16-16.34.50:842][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.07.16-16.34.50:944][  0]LogEngine: Initializing Engine...
+[2020.07.16-16.34.50:945][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.16-16.34.50:945][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.07.16-16.34.50:947][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.07.16-16.34.51:179][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.07.16-16.34.51:194][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.07.16-16.34.51:194][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027C84940800), frame # 0
+[2020.07.16-16.34.51:195][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027C848ABB00), frame # 0
+[2020.07.16-16.34.51:238][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.16-16.34.51:238][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.16-16.34.51:238][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.16-16.34.51:239][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.16-16.34.51:239][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.16-16.34.51:239][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.16-16.34.51:239][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.16-16.34.51:239][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.16-16.34.51:239][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.16-16.34.51:239][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.16-16.34.51:258][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.16-16.34.51:258][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.07.16-16.34.51:366][  0]LogAudioMixer: Display: Using Audio Device Głośniki (Conexant SmartAudio HD)
+[2020.07.16-16.34.51:369][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.16-16.34.51:376][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.16-16.34.51:376][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.16-16.34.51:377][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.16-16.34.51:378][  0]LogInit: FAudioDevice initialized.
+[2020.07.16-16.34.51:378][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.07.16-16.34.51:490][  0]LogDerivedDataCache: Saved boot cache 0.11s 75MB C:/Users/miszc/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.16-16.34.51:492][  0]LogInit: Texture streaming: Enabled
+[2020.07.16-16.34.51:511][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.07.16-16.34.51:512][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.07.16-16.34.51:518][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.07.16-16.34.51:571][  0]LogInit: Transaction tracking system initialized
+[2020.07.16-16.34.51:595][  0]BlueprintLog: New page: Editor Load
+[2020.07.16-16.34.51:675][  0]LocalizationService: Localization service is disabled
+[2020.07.16-16.34.51:859][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.16-16.34.51:859][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.16-16.34.52:025][  0]LogFileCache: Scanning file cache for directory 'D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/' took 0.00s
+[2020.07.16-16.34.52:291][  0]SourceControl: Source control is disabled
+[2020.07.16-16.34.52:291][  0]LogUnrealEdMisc: Loading editor; pre map load, took 11.176
+[2020.07.16-16.34.52:291][  0]Cmd: MAP LOAD FILE="../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.16-16.34.52:293][  0]LightingResults: New page: Lighting Build
+[2020.07.16-16.34.52:294][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.16-16.34.52:294][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.16-16.34.52:294][  0]MapCheck: New page: Map Check
+[2020.07.16-16.34.52:294][  0]LightingResults: New page: Lighting Build
+[2020.07.16-16.34.52:304][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027C84940800), frame # 0
+[2020.07.16-16.34.52:304][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027C848ABB00), frame # 0
+[2020.07.16-16.34.52:305][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.07.16-16.34.52:415][  0]LogAIModule: Creating AISystem for world Main
+[2020.07.16-16.34.52:415][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027C94E0DE00), frame # 0
+[2020.07.16-16.34.52:415][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027CFE8E1440), frame # 0
+[2020.07.16-16.34.52:421][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.16-16.34.52:435][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.07.16-16.34.52:436][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.16-16.34.52:436][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,138ms to complete.
+[2020.07.16-16.34.52:436][  0]LogFileHelpers: Loading map 'Main' took 0.144
+[2020.07.16-16.34.52:439][  0]LogUnrealEdMisc: Total Editor Startup Time, took 11.323
+[2020.07.16-16.34.52:616][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.16-16.34.52:624][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.16-16.34.52:631][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.16-16.34.52:640][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.16-16.34.52:651][  0]LogCollectionManager: Loaded 0 collections in 0.001414 seconds
+[2020.07.16-16.34.52:669][  0]LogFileCache: Scanning file cache for directory 'D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Collections/' took 0.00s
+[2020.07.16-16.34.52:669][  0]LogFileCache: Scanning file cache for directory 'D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Developers/PiotrDobrasiewicz/Collections/' took 0.00s
+[2020.07.16-16.34.52:669][  0]LogFileCache: Scanning file cache for directory 'D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Collections/' took 0.00s
+[2020.07.16-16.34.52:669][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 3428 classes and 824 folders.
+[2020.07.16-16.34.52:673][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.07.16-16.34.52:868][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.07.16-16.34.52:870][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 0 folders.
+[2020.07.16-16.34.52:960][  0]LogSlate: Took 0.000427 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.16-16.34.52:963][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.16-16.34.52:974][  0]LogSlate: Took 0.001380 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.16-16.34.53:094][  0]LogRenderer: Reallocating scene render targets to support 964x432 Format 10 NumSamples 1 (Frame:1).
+[2020.07.16-16.34.53:240][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.07.16-16.34.53:240][  0]LogLoad: (Engine Initialization) Total time: 12.12 seconds
+[2020.07.16-16.34.53:240][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.16-16.34.53:319][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.16-16.34.53:366][  0]LogSlate: Took 0.001245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.16-16.34.53:384][  1]LogAssetRegistry: Asset discovery search completed in 5.0595 seconds
+[2020.07.16-16.34.53:389][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.07.16-16.34.58:750][161]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.16-16.34.58:771][161]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/ToonTanks.PawnBase
+[2020.07.16-16.52.52:867][678]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.07.16-16.54.50:932][135]Candidate modules for hot reload:
+[2020.07.16-16.54.50:932][135]  ToonTanks
+[2020.07.16-16.54.50:933][135]Launching UnrealBuildTool... [D:/Programy/Unreal Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,1626 ToonTanksEditor Win64 Development -Project="D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/ToonTanks.uproject" "D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.07.16-16.54.50:952][135]Warning: Starting HotReload took  0.1s.
+[2020.07.16-16.55.05:821][  5]CompilerResultsLog: New page: Compilation - 16 lip 2020, 20:55:05
+[2020.07.16-16.55.05:821][  5]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks).
+[2020.07.16-16.55.05:821][  5]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.07.16-16.55.05:821][  5]CompilerResultsLog:   Running UnrealHeaderTool "D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\ToonTanks.uproject" "D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\miszc\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.07.16-16.55.05:821][  5]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 12,7320367 seconds
+[2020.07.16-16.55.05:821][  5]CompilerResultsLog: Building ToonTanksEditor...
+[2020.07.16-16.55.05:821][  5]CompilerResultsLog: Using Visual Studio 2019 14.25.28610 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.16-16.55.05:821][  5]CompilerResultsLog: Building 8 actions with 8 processes...
+[2020.07.16-16.55.05:821][  5]CompilerResultsLog:   [1/8] ERROR: Unable to create child process
+[2020.07.16-16.55.05:821][  5]LogMainFrame: MainFrame: Module compiling took 14.927 seconds
+[2020.07.16-16.55.05:822][  5]Warning: HotReload failed, recompile failed
+[2020.07.16-16.55.07:762][109]LogSlate: Took 0.009497 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.07.16-16.55.12:146][372]LogSlate: Window 'Message Log' being destroyed
+[2020.07.16-16.55.12:153][372]LogSlate: Window 'Message Log' being destroyed
+[2020.07.16-16.55.13:466][447]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/ToonTanks.PawnBase
+[2020.07.16-16.56.18:057][761]Candidate modules for hot reload:
+[2020.07.16-16.56.18:057][761]  ToonTanks
+[2020.07.16-16.56.18:057][761]Launching UnrealBuildTool... [D:/Programy/Unreal Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,2805 ToonTanksEditor Win64 Development -Project="D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/ToonTanks.uproject" "D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.07.16-16.56.18:075][761]Warning: Starting HotReload took  0.0s.
+[2020.07.16-16.57.28:852][263]CompilerResultsLog: New page: Compilation - 16 lip 2020, 20:57:28
+[2020.07.16-16.57.28:852][263]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks).
+[2020.07.16-16.57.28:852][263]CompilerResultsLog: Creating makefile for ToonTanksEditor (game project files are newer)
+[2020.07.16-16.57.28:852][263]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.07.16-16.57.28:852][263]CompilerResultsLog:   Running UnrealHeaderTool "D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\ToonTanks.uproject" "D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\miszc\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.07.16-16.57.28:852][263]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 12,4691717 seconds
+[2020.07.16-16.57.28:852][263]CompilerResultsLog: Building ToonTanksEditor...
+[2020.07.16-16.57.28:853][263]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.16-16.57.28:853][263]CompilerResultsLog: Building 8 actions with 8 processes...
+[2020.07.16-16.57.28:853][263]CompilerResultsLog:   [1/8] SharedPCH.Engine.ShadowErrors.cpp
+[2020.07.16-16.57.28:853][263]CompilerResultsLog:   [2/8] ToonTanks.cpp
+[2020.07.16-16.57.28:853][263]CompilerResultsLog:   [3/8] PawnBase.cpp
+[2020.07.16-16.57.28:853][263]CompilerResultsLog:   [4/8] ToonTanks.init.gen.cpp
+[2020.07.16-16.57.28:853][263]CompilerResultsLog:   [5/8] PawnBase.gen.cpp
+[2020.07.16-16.57.28:853][263]CompilerResultsLog:   [6/8] UE4Editor-ToonTanks-2805.lib
+[2020.07.16-16.57.28:853][263]CompilerResultsLog:      Trwa tworzenie biblioteki D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2805.lib i obiektu D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2805.exp
+[2020.07.16-16.57.28:853][263]CompilerResultsLog:   [7/8] UE4Editor-ToonTanks-2805.dll
+[2020.07.16-16.57.28:853][263]CompilerResultsLog:      Trwa tworzenie biblioteki D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2805.suppressed.lib i obiektu D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2805.suppressed.exp
+[2020.07.16-16.57.28:853][263]CompilerResultsLog:   [8/8] ToonTanksEditor.target
+[2020.07.16-16.57.28:853][263]CompilerResultsLog: Total time in Parallel executor: 53,29 seconds
+[2020.07.16-16.57.28:853][263]CompilerResultsLog: Total execution time: 70,33 seconds
+[2020.07.16-16.57.28:853][263]LogMainFrame: MainFrame: Module compiling took 70.808 seconds
+[2020.07.16-16.57.29:888][263]LogClass: Could not find existing class PawnBase in package /Script/ToonTanks for HotReload, assuming new class
+[2020.07.16-16.57.29:973][263]LogHotReload: Re-instancing PawnBase after hot-reload.
+[2020.07.16-16.57.30:059][263]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0168 seconds. Added 1 classes and 3 folders.
+[2020.07.16-16.57.30:063][263]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.07.16-16.57.30:174][263]LogContentBrowser: Native class hierarchy populated in 0.0619 seconds. Added 3428 classes and 824 folders.
+[2020.07.16-16.57.30:180][263]Display: HotReload took 72.2s.
+[2020.07.16-17.01.59:062][162]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.07.16-17.01.59:064][162]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.07.16-17.01.59:154][162]LogSlate: Took 0.008171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.07.16-17.03.10:226][366]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2020.07.16-17.03.10:783][366]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 125 classes and 0 folders.
+[2020.07.16-17.03.12:385][366]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.07.16-17.03.34:453][432]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2020.07.16-17.03.34:512][432]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.104
+[2020.07.16-17.03.34:514][432]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pawns/BP_PawnTank] ([1] browsable assets)...
+[2020.07.16-17.03.34:514][432]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawns/BP_PawnTank]
+[2020.07.16-17.03.34:541][432]LogSavePackage: Moving '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/BP_PawnTank_Auto15EB73AD54E144B6CDE15958649698E66.tmp' to '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Autosaves/Game/Blueprints/Pawns/BP_PawnTank_Auto1.uasset'
+[2020.07.16-17.03.34:545][432]LogFileHelpers: Auto-saving content packages took 0.032
+[2020.07.16-17.05.43:825][935]LogRenderer: Reallocating scene render targets to support 964x684 Format 10 NumSamples 1 (Frame:130).
+[2020.07.16-17.06.01:206][ 47]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.07.16-17.06.06:115][ 47]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.07.16-17.06.24:020][636]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.07.16-17.06.25:707][636]LogSlate: Window 'Delete Assets' being destroyed
+[2020.07.16-17.06.25:865][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.07.16-17.06.27:756][716]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.07.16-17.06.34:042][716]LogSlate: Window 'Pick Parent Class' being destroyed
