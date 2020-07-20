@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/.vs": true,
+		"D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/.vscode": true,
+		"D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content": true,
+		"D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/DerivedDataCache": true,
+		"D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Intermediate": true,
+		"D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved": true
+	}
+}

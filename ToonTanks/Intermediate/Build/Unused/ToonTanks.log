@@ -1,0 +1,16 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks).
+  Parsing headers for ToonTanksEditor
+    Running UnrealHeaderTool "D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\ToonTanks.uproject" "D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\miszc\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for ToonTanksEditor in 9,51814 seconds
+  Building ToonTanksEditor...
+  Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 8 processes...
+    [1/5] PawnTank.cpp
+    [2/5] PawnTank.gen.cpp
+    [3/5] UE4Editor-ToonTanks-0016.lib
+       Creating library D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0016.lib and object D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0016.exp
+    [4/5] UE4Editor-ToonTanks-0016.dll
+       Creating library D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0016.suppressed.lib and object D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0016.suppressed.exp
+    [5/5] ToonTanksEditor.target
+  Total time in Parallel executor: 17,29 seconds
+  Total execution time: 27,85 seconds
