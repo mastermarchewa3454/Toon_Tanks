@@ -855,3 +855,1287 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.07.20-08.07.55:427][351]LogHttp: Warning: 000001131F7F5D00: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
 [2020.07.20-08.07.55:427][351]LogHttp: Warning: 000001131F7F5D00: libcurl info message cache 3 (Closing connection 18)
 [2020.07.20-08.07.55:554][352]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-15.43.25:703][956]Candidate modules for hot reload:
+[2020.07.20-15.43.25:706][956]  ToonTanks
+[2020.07.20-15.43.25:710][956]Launching UnrealBuildTool... [D:/Programy/Unreal Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,4523 ToonTanksEditor Win64 Development -Project="D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/ToonTanks.uproject" "D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.07.20-15.43.25:774][956]Warning: Starting HotReload took  0.2s.
+[2020.07.20-15.43.56:053][153]CompilerResultsLog: New page: Compilation - 20 lip 2020, 19:43:56
+[2020.07.20-15.43.56:065][153]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks).
+[2020.07.20-15.43.56:067][153]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.07.20-15.43.56:067][153]CompilerResultsLog:   Running UnrealHeaderTool "D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\ToonTanks.uproject" "D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\miszc\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.07.20-15.43.56:067][153]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 12,0581054 seconds
+[2020.07.20-15.43.56:067][153]CompilerResultsLog: Building ToonTanksEditor...
+[2020.07.20-15.43.56:067][153]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.20-15.43.56:067][153]CompilerResultsLog: Building 6 actions with 8 processes...
+[2020.07.20-15.43.56:067][153]CompilerResultsLog:   [1/6] ToonTanks.init.gen.cpp
+[2020.07.20-15.43.56:067][153]CompilerResultsLog:   [2/6] PawnTank.cpp
+[2020.07.20-15.43.56:067][153]CompilerResultsLog:   [3/6] PawnTank.gen.cpp
+[2020.07.20-15.43.56:068][153]CompilerResultsLog:   [4/6] UE4Editor-ToonTanks-4523.lib
+[2020.07.20-15.43.56:068][153]CompilerResultsLog:      Trwa tworzenie biblioteki D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-4523.lib i obiektu D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-4523.exp
+[2020.07.20-15.43.56:068][153]CompilerResultsLog:   [5/6] UE4Editor-ToonTanks-4523.dll
+[2020.07.20-15.43.56:068][153]CompilerResultsLog:      Trwa tworzenie biblioteki D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-4523.suppressed.lib i obiektu D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-4523.suppressed.exp
+[2020.07.20-15.43.56:068][153]CompilerResultsLog:   [6/6] ToonTanksEditor.target
+[2020.07.20-15.43.56:068][153]CompilerResultsLog: Total time in Parallel executor: 16,19 seconds
+[2020.07.20-15.43.56:068][153]CompilerResultsLog: Total execution time: 30,06 seconds
+[2020.07.20-15.43.56:069][153]LogMainFrame: MainFrame: Module compiling took 30.456 seconds
+[2020.07.20-15.43.57:532][153]LogClass: Could not find existing class PawnTank in package /Script/ToonTanks for HotReload, assuming new class
+[2020.07.20-15.43.57:651][153]LogHotReload: Re-instancing PawnTank after hot-reload.
+[2020.07.20-15.43.58:067][153]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0094 seconds. Added 2 classes and 3 folders.
+[2020.07.20-15.43.58:072][153]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.07.20-15.43.58:517][153]LogContentBrowser: Native class hierarchy populated in 0.0334 seconds. Added 3429 classes and 824 folders.
+[2020.07.20-15.43.58:521][153]Display: HotReload took 32.9s.
+[2020.07.20-15.44.15:989][335]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2020.07.20-15.44.21:433][484]LogRenderer: Reallocating scene render targets to support 964x684 Format 10 NumSamples 1 (Frame:1).
+[2020.07.20-15.44.54:724][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2020.07.20-15.44.54:773][745]LogSavePackage: Moving '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/BP_PawnTank0D221FBA402A4F7CFF9D3581C31DFFED.tmp' to '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2020.07.20-15.44.54:819][745]AssetCheck: New page: Asset Save: BP_PawnTank
+[2020.07.20-15.44.54:819][745]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2020.07.20-15.44.55:295][762]BlueprintLog: New page: Compile BP_PawnTank
+[2020.07.20-15.44.55:593][762]LogUObjectHash: Compacting FUObjectHashTables data took   6.04ms
+[2020.07.20-15.45.04:853][ 47]LogSlate: Window 'BP_PawnTank' being destroyed
+[2020.07.20-15.45.04:933][ 47]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.07.20-15.45.04:933][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.45.09:380][281]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.20-15.45.09:426][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.20-15.45.09:427][281]PIE: New page: PIE session: Main (20 lip 2020, 19:45:09)
+[2020.07.20-15.45.09:432][281]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.07.20-15.45.09:475][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042734s)
+[2020.07.20-15.45.09:486][281]LogAIModule: Creating AISystem for world Main
+[2020.07.20-15.45.09:488][281]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001132258B000), frame # 103281
+[2020.07.20-15.45.09:492][281]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001131F89AC00), frame # 103281
+[2020.07.20-15.45.09:498][281]LogPlayLevel: PIE: World Init took: (0.022440s)
+[2020.07.20-15.45.09:499][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.066193s)
+[2020.07.20-15.45.09:673][281]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2020.07.20-15.45.09:685][281]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.20-15.45.09:685][281]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.20-15.45.09:685][281]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.20-15.45.09:685][281]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.20-15.45.09:685][281]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.20-15.45.09:685][281]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.20-15.45.09:685][281]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.20-15.45.09:686][281]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.20-15.45.09:692][281]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.20-15.45.09:692][281]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.20-15.45.09:703][281]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.20-15.45.09:703][281]LogAudioMixer: Display: 1: FrontRight
+[2020.07.20-15.45.09:795][281]LogAudioMixer: Display: Using Audio Device Głośniki (Conexant SmartAudio HD)
+[2020.07.20-15.45.09:797][281]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.20-15.45.09:797][281]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.20-15.45.09:797][281]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.20-15.45.09:801][281]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.20-15.45.09:818][281]LogInit: FAudioDevice initialized.
+[2020.07.20-15.45.09:866][281]LogLoad: Game class is 'GameModeBase'
+[2020.07.20-15.45.09:882][281]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.07.20-17.45.09
+[2020.07.20-15.45.09:885][281]LogWorld: Bringing up level for play took: 0.006429
+[2020.07.20-15.45.09:898][281]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.07.20-15.45.09:956][281]PIE: Server logged in
+[2020.07.20-15.45.09:957][281]PIE: Play in editor total start time 0,557 seconds.
+[2020.07.20-15.45.14:989][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.20-15.45.14:990][572]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.07.20-15.45.14:993][572]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.07.20-15.45.14:994][572]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.45.15:007][572]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.20-15.45.15:012][572]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.45.15:066][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.20-15.45.15:075][572]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001131F89AC00), frame # 103572
+[2020.07.20-15.45.15:076][572]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001132258B000), frame # 103572
+[2020.07.20-15.45.15:086][572]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.07.20-15.45.15:121][573]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.07.20-15.45.18:758][779]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2020.07.20-15.45.33:507][406]BlueprintLog: New page: Compile BP_PawnTank
+[2020.07.20-15.45.33:595][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2020.07.20-15.45.34:154][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2020.07.20-15.45.34:170][421]LogSavePackage: Moving '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/BP_PawnTank0B9D18594B5F00EDAA68AEAB5015EB25.tmp' to '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2020.07.20-15.45.34:193][421]AssetCheck: New page: Asset Save: BP_PawnTank
+[2020.07.20-15.45.34:193][421]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2020.07.20-15.45.35:206][471]LogSlate: Window 'BP_PawnTank' being destroyed
+[2020.07.20-15.45.35:232][471]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.07.20-15.45.35:232][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.45.38:679][653]Candidate modules for hot reload:
+[2020.07.20-15.45.38:680][653]  ToonTanks
+[2020.07.20-15.45.38:680][653]Launching UnrealBuildTool... [D:/Programy/Unreal Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,1110 ToonTanksEditor Win64 Development -Project="D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/ToonTanks.uproject" "D:/Programy/Unreal Engine/Toon_Tanks_Game/Toon_Tanks/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.07.20-15.45.38:692][653]Warning: Starting HotReload took  0.0s.
+[2020.07.20-15.45.42:229][846]CompilerResultsLog: New page: Compilation - 20 lip 2020, 19:45:42
+[2020.07.20-15.45.42:230][846]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks).
+[2020.07.20-15.45.42:230][846]CompilerResultsLog: Building ToonTanksEditor...
+[2020.07.20-15.45.42:230][846]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.20-15.45.42:230][846]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.07.20-15.45.42:230][846]CompilerResultsLog:   [1/3] UE4Editor-ToonTanks-1110.lib
+[2020.07.20-15.45.42:230][846]CompilerResultsLog:      Trwa tworzenie biblioteki D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1110.lib i obiektu D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1110.exp
+[2020.07.20-15.45.42:230][846]CompilerResultsLog:   [2/3] UE4Editor-ToonTanks-1110.dll
+[2020.07.20-15.45.42:230][846]CompilerResultsLog:      Trwa tworzenie biblioteki D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1110.suppressed.lib i obiektu D:\Programy\Unreal Engine\Toon_Tanks_Game\Toon_Tanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1110.suppressed.exp
+[2020.07.20-15.45.42:230][846]CompilerResultsLog:   [3/3] ToonTanksEditor.target
+[2020.07.20-15.45.42:230][846]CompilerResultsLog: Total time in Parallel executor: 2,10 seconds
+[2020.07.20-15.45.42:230][846]CompilerResultsLog: Total execution time: 3,36 seconds
+[2020.07.20-15.45.42:230][846]LogMainFrame: MainFrame: Module compiling took 3.565 seconds
+[2020.07.20-15.45.43:002][846]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2020.07.20-15.45.43:005][846]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.07.20-15.45.43:083][846]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 3429 classes and 824 folders.
+[2020.07.20-15.45.43:083][846]Display: HotReload took  4.4s.
+[2020.07.20-15.45.45:462][959]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.20-15.45.45:483][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.20-15.45.45:483][959]PIE: New page: PIE session: Main (20 lip 2020, 19:45:45)
+[2020.07.20-15.45.45:511][959]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.07.20-15.45.45:517][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005893s)
+[2020.07.20-15.45.45:519][959]LogAIModule: Creating AISystem for world Main
+[2020.07.20-15.45.45:519][959]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000113283C2600), frame # 104959
+[2020.07.20-15.45.45:519][959]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001131F70E5C0), frame # 104959
+[2020.07.20-15.45.45:519][959]LogPlayLevel: PIE: World Init took: (0.001582s)
+[2020.07.20-15.45.45:519][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.007750s)
+[2020.07.20-15.45.45:595][959]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2020.07.20-15.45.45:598][959]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.20-15.45.45:598][959]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.20-15.45.45:598][959]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.20-15.45.45:598][959]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.20-15.45.45:598][959]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.20-15.45.45:598][959]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.20-15.45.45:598][959]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.20-15.45.45:598][959]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.20-15.45.45:598][959]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.20-15.45.45:599][959]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.20-15.45.45:603][959]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.20-15.45.45:603][959]LogAudioMixer: Display: 1: FrontRight
+[2020.07.20-15.45.45:687][959]LogAudioMixer: Display: Using Audio Device Głośniki (Conexant SmartAudio HD)
+[2020.07.20-15.45.45:687][959]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.20-15.45.45:687][959]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.20-15.45.45:687][959]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.20-15.45.45:688][959]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.20-15.45.45:705][959]LogInit: FAudioDevice initialized.
+[2020.07.20-15.45.45:717][959]LogLoad: Game class is 'GameModeBase'
+[2020.07.20-15.45.45:720][959]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.07.20-17.45.45
+[2020.07.20-15.45.45:720][959]LogWorld: Bringing up level for play took: 0.001454
+[2020.07.20-15.45.45:720][959]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.07.20-15.45.45:723][959]PIE: Server logged in
+[2020.07.20-15.45.45:724][959]PIE: Play in editor total start time 0,246 seconds.
+[2020.07.20-15.45.48:544][118]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.20-15.45.48:544][118]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.07.20-15.45.48:544][118]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.07.20-15.45.48:544][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.45.48:553][118]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.20-15.45.48:556][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.45.48:571][118]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.20-15.45.48:615][118]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001131F70E5C0), frame # 105118
+[2020.07.20-15.45.48:615][118]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000113283C2600), frame # 105118
+[2020.07.20-15.45.48:624][118]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2020.07.20-15.45.48:657][119]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.07.20-15.46.13:893][243]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2020.07.20-15.46.13:896][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.07.20-15.46.13:941][243]LogSavePackage: Moving '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Main_Auto354C9BDCB49E3D6F4128C4FB8B4FCC65D.tmp' to '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto3.umap'
+[2020.07.20-15.46.13:945][243]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.072
+[2020.07.20-15.46.13:945][243]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.072
+[2020.07.20-15.46.20:328][328]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2020.07.20-15.47.54:769][775]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.20-15.47.54:791][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.20-15.47.54:792][775]PIE: New page: PIE session: Main (20 lip 2020, 19:47:54)
+[2020.07.20-15.47.54:831][775]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.07.20-15.47.54:834][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003043s)
+[2020.07.20-15.47.54:837][775]LogAIModule: Creating AISystem for world Main
+[2020.07.20-15.47.54:837][775]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000011327D18E00), frame # 106775
+[2020.07.20-15.47.54:838][775]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001132DFDF880), frame # 106775
+[2020.07.20-15.47.54:838][775]LogPlayLevel: PIE: World Init took: (0.004008s)
+[2020.07.20-15.47.54:838][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.007283s)
+[2020.07.20-15.47.54:863][775]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.07.20-15.47.54:866][775]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.20-15.47.54:866][775]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.20-15.47.54:866][775]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.20-15.47.54:866][775]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.20-15.47.54:866][775]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.20-15.47.54:866][775]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.20-15.47.54:866][775]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.20-15.47.54:866][775]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.20-15.47.54:867][775]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.20-15.47.54:867][775]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.20-15.47.54:872][775]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.20-15.47.54:872][775]LogAudioMixer: Display: 1: FrontRight
+[2020.07.20-15.47.54:956][775]LogAudioMixer: Display: Using Audio Device Głośniki (Conexant SmartAudio HD)
+[2020.07.20-15.47.54:956][775]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.20-15.47.54:956][775]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.20-15.47.54:956][775]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.20-15.47.54:958][775]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.20-15.47.54:974][775]LogInit: FAudioDevice initialized.
+[2020.07.20-15.47.54:996][775]LogLoad: Game class is 'GameModeBase'
+[2020.07.20-15.47.54:999][775]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.07.20-17.47.54
+[2020.07.20-15.47.55:000][775]LogWorld: Bringing up level for play took: 0.002285
+[2020.07.20-15.47.55:000][775]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.07.20-15.47.55:003][775]PIE: Server logged in
+[2020.07.20-15.47.55:004][775]PIE: Play in editor total start time 0,219 seconds.
+[2020.07.20-15.47.56:755][848]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.20-15.47.56:755][848]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.07.20-15.47.56:755][848]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.07.20-15.47.56:755][848]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.47.56:766][848]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.20-15.47.56:769][848]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.47.56:818][848]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.20-15.47.56:819][848]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001132DFDF880), frame # 106848
+[2020.07.20-15.47.56:819][848]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000011327D18E00), frame # 106848
+[2020.07.20-15.47.56:821][848]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.07.20-15.47.56:848][849]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.07.20-15.47.57:734][882]BlueprintLog: New page: Compile BP_PawnTank
+[2020.07.20-15.47.57:791][882]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.07.20-15.47.58:350][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2020.07.20-15.47.58:366][902]LogSavePackage: Moving '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/BP_PawnTank6078547149F4F76BDBDC35B54265AE2B.tmp' to '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2020.07.20-15.47.58:387][902]AssetCheck: New page: Asset Save: BP_PawnTank
+[2020.07.20-15.47.58:387][902]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2020.07.20-15.48.04:931][139]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.20-15.48.04:950][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.20-15.48.04:950][139]PIE: New page: PIE session: Main (20 lip 2020, 19:48:04)
+[2020.07.20-15.48.04:950][139]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.07.20-15.48.04:953][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003074s)
+[2020.07.20-15.48.04:954][139]LogAIModule: Creating AISystem for world Main
+[2020.07.20-15.48.04:954][139]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000011326F93600), frame # 107139
+[2020.07.20-15.48.04:954][139]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000112D5D05A80), frame # 107139
+[2020.07.20-15.48.04:955][139]LogPlayLevel: PIE: World Init took: (0.001167s)
+[2020.07.20-15.48.04:955][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004391s)
+[2020.07.20-15.48.04:979][139]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.07.20-15.48.04:981][139]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.20-15.48.04:981][139]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.20-15.48.04:981][139]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.20-15.48.04:981][139]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.20-15.48.04:981][139]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.20-15.48.04:981][139]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.20-15.48.04:981][139]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.20-15.48.04:981][139]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.20-15.48.04:982][139]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.20-15.48.04:982][139]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.20-15.48.04:986][139]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.20-15.48.04:986][139]LogAudioMixer: Display: 1: FrontRight
+[2020.07.20-15.48.05:077][139]LogAudioMixer: Display: Using Audio Device Głośniki (Conexant SmartAudio HD)
+[2020.07.20-15.48.05:078][139]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.20-15.48.05:078][139]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.20-15.48.05:078][139]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.20-15.48.05:078][139]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.20-15.48.05:094][139]LogInit: FAudioDevice initialized.
+[2020.07.20-15.48.05:104][139]LogLoad: Game class is 'GameModeBase'
+[2020.07.20-15.48.05:106][139]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.07.20-17.48.05
+[2020.07.20-15.48.05:106][139]LogWorld: Bringing up level for play took: 0.001083
+[2020.07.20-15.48.05:107][139]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.07.20-15.48.05:109][139]PIE: Server logged in
+[2020.07.20-15.48.05:110][139]PIE: Play in editor total start time 0,166 seconds.
+[2020.07.20-15.48.13:544][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.20-15.48.13:544][637]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.07.20-15.48.13:544][637]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.07.20-15.48.13:545][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.48.13:553][637]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.20-15.48.13:557][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.48.13:601][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.20-15.48.13:602][637]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000112D5D05A80), frame # 107637
+[2020.07.20-15.48.13:602][637]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000011326F93600), frame # 107637
+[2020.07.20-15.48.13:604][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.07.20-15.48.13:628][638]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.07.20-15.48.27:091][257]BlueprintLog: New page: Compile BP_PawnTank
+[2020.07.20-15.48.27:155][257]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2020.07.20-15.48.27:689][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2020.07.20-15.48.27:705][268]LogSavePackage: Moving '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/BP_PawnTank714AAC73446384D151D1CC867BBA47D6.tmp' to '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2020.07.20-15.48.27:728][268]AssetCheck: New page: Asset Save: BP_PawnTank
+[2020.07.20-15.48.27:728][268]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2020.07.20-15.48.33:196][490]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.20-15.48.33:223][490]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.20-15.48.33:223][490]PIE: New page: PIE session: Main (20 lip 2020, 19:48:33)
+[2020.07.20-15.48.33:223][490]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.07.20-15.48.33:226][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002893s)
+[2020.07.20-15.48.33:227][490]LogAIModule: Creating AISystem for world Main
+[2020.07.20-15.48.33:227][490]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000011311483E00), frame # 108490
+[2020.07.20-15.48.33:227][490]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001132DFDDA80), frame # 108490
+[2020.07.20-15.48.33:228][490]LogPlayLevel: PIE: World Init took: (0.001056s)
+[2020.07.20-15.48.33:228][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004057s)
+[2020.07.20-15.48.33:251][490]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.07.20-15.48.33:253][490]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.20-15.48.33:253][490]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.20-15.48.33:253][490]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.20-15.48.33:253][490]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.20-15.48.33:253][490]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.20-15.48.33:253][490]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.20-15.48.33:253][490]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.20-15.48.33:253][490]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.20-15.48.33:253][490]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.20-15.48.33:253][490]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.20-15.48.33:258][490]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.20-15.48.33:258][490]LogAudioMixer: Display: 1: FrontRight
+[2020.07.20-15.48.33:348][490]LogAudioMixer: Display: Using Audio Device Głośniki (Conexant SmartAudio HD)
+[2020.07.20-15.48.33:348][490]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.20-15.48.33:348][490]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.20-15.48.33:348][490]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.20-15.48.33:349][490]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.20-15.48.33:366][490]LogInit: FAudioDevice initialized.
+[2020.07.20-15.48.33:379][490]LogLoad: Game class is 'GameModeBase'
+[2020.07.20-15.48.33:381][490]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.07.20-17.48.33
+[2020.07.20-15.48.33:382][490]LogWorld: Bringing up level for play took: 0.001202
+[2020.07.20-15.48.33:382][490]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.07.20-15.48.33:384][490]PIE: Server logged in
+[2020.07.20-15.48.33:385][490]PIE: Play in editor total start time 0,169 seconds.
+[2020.07.20-15.48.42:303][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.20-15.48.42:303][ 12]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.07.20-15.48.42:303][ 12]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.07.20-15.48.42:304][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.48.42:312][ 12]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.20-15.48.42:314][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.48.42:357][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.20-15.48.42:358][ 12]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001132DFDDA80), frame # 109012
+[2020.07.20-15.48.42:358][ 12]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000011311483E00), frame # 109012
+[2020.07.20-15.48.42:360][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.07.20-15.48.42:385][ 13]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.07.20-15.48.50:946][378]BlueprintLog: New page: Compile BP_PawnTank
+[2020.07.20-15.48.51:006][378]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.07.20-15.48.51:516][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2020.07.20-15.48.51:534][395]LogSavePackage: Moving '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/BP_PawnTankFB092B944437F370F189A1AB4E330202.tmp' to '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2020.07.20-15.48.51:558][395]AssetCheck: New page: Asset Save: BP_PawnTank
+[2020.07.20-15.48.51:558][395]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2020.07.20-15.48.52:176][422]LogSlate: Window 'BP_PawnTank' being destroyed
+[2020.07.20-15.48.52:221][422]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.07.20-15.48.52:221][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.48.54:379][526]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.20-15.48.54:400][526]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.20-15.48.54:400][526]PIE: New page: PIE session: Main (20 lip 2020, 19:48:54)
+[2020.07.20-15.48.54:400][526]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.07.20-15.48.54:403][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002932s)
+[2020.07.20-15.48.54:404][526]LogAIModule: Creating AISystem for world Main
+[2020.07.20-15.48.54:404][526]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001131E71F200), frame # 109526
+[2020.07.20-15.48.54:404][526]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000011327C25300), frame # 109526
+[2020.07.20-15.48.54:404][526]LogPlayLevel: PIE: World Init took: (0.001202s)
+[2020.07.20-15.48.54:404][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004267s)
+[2020.07.20-15.48.54:427][526]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.07.20-15.48.54:429][526]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.20-15.48.54:429][526]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.20-15.48.54:429][526]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.20-15.48.54:429][526]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.20-15.48.54:429][526]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.20-15.48.54:429][526]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.20-15.48.54:429][526]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.20-15.48.54:429][526]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.20-15.48.54:429][526]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.20-15.48.54:429][526]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.20-15.48.54:434][526]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.20-15.48.54:434][526]LogAudioMixer: Display: 1: FrontRight
+[2020.07.20-15.48.54:523][526]LogAudioMixer: Display: Using Audio Device Głośniki (Conexant SmartAudio HD)
+[2020.07.20-15.48.54:523][526]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.20-15.48.54:523][526]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.20-15.48.54:523][526]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.20-15.48.54:524][526]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.20-15.48.54:540][526]LogInit: FAudioDevice initialized.
+[2020.07.20-15.48.54:549][526]LogLoad: Game class is 'GameModeBase'
+[2020.07.20-15.48.54:552][526]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.07.20-17.48.54
+[2020.07.20-15.48.54:552][526]LogWorld: Bringing up level for play took: 0.001749
+[2020.07.20-15.48.54:552][526]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.07.20-15.48.54:555][526]PIE: Server logged in
+[2020.07.20-15.48.54:556][526]PIE: Play in editor total start time 0,163 seconds.
+[2020.07.20-15.48.57:844][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.20-15.48.57:844][714]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.07.20-15.48.57:844][714]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.07.20-15.48.57:844][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.48.57:852][714]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.20-15.48.57:856][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.48.57:895][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.20-15.48.57:896][714]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000011327C25300), frame # 109714
+[2020.07.20-15.48.57:896][714]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001131E71F200), frame # 109714
+[2020.07.20-15.48.57:898][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.07.20-15.48.57:927][715]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.07.20-15.49.11:640][918]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2020.07.20-15.49.17:879][165]BlueprintLog: New page: Compile BP_PawnTank
+[2020.07.20-15.49.17:939][165]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.07.20-15.49.18:399][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2020.07.20-15.49.18:416][174]LogSavePackage: Moving '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/BP_PawnTank9CCDD96A44B51C411B06A6BA7BF20848.tmp' to '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2020.07.20-15.49.18:437][174]AssetCheck: New page: Asset Save: BP_PawnTank
+[2020.07.20-15.49.18:437][174]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2020.07.20-15.49.19:151][201]LogSlate: Window 'BP_PawnTank' being destroyed
+[2020.07.20-15.49.19:169][201]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.07.20-15.49.19:169][201]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.49.50:674][417]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.20-15.49.50:695][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.20-15.49.50:695][417]PIE: New page: PIE session: Main (20 lip 2020, 19:49:50)
+[2020.07.20-15.49.50:696][417]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.07.20-15.49.50:699][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002976s)
+[2020.07.20-15.49.50:700][417]LogAIModule: Creating AISystem for world Main
+[2020.07.20-15.49.50:700][417]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000112DC511600), frame # 110417
+[2020.07.20-15.49.50:700][417]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000112FBB8D300), frame # 110417
+[2020.07.20-15.49.50:703][417]LogPlayLevel: PIE: World Init took: (0.003747s)
+[2020.07.20-15.49.50:703][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.006916s)
+[2020.07.20-15.49.50:726][417]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2020.07.20-15.49.50:729][417]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.20-15.49.50:729][417]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.20-15.49.50:729][417]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.20-15.49.50:729][417]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.20-15.49.50:729][417]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.20-15.49.50:729][417]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.20-15.49.50:729][417]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.20-15.49.50:729][417]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.20-15.49.50:730][417]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.20-15.49.50:730][417]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.20-15.49.50:734][417]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.20-15.49.50:734][417]LogAudioMixer: Display: 1: FrontRight
+[2020.07.20-15.49.50:825][417]LogAudioMixer: Display: Using Audio Device Głośniki (Conexant SmartAudio HD)
+[2020.07.20-15.49.50:826][417]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.20-15.49.50:826][417]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.20-15.49.50:826][417]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.20-15.49.50:826][417]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.20-15.49.50:846][417]LogInit: FAudioDevice initialized.
+[2020.07.20-15.49.50:854][417]LogLoad: Game class is 'GameModeBase'
+[2020.07.20-15.49.50:856][417]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.07.20-17.49.50
+[2020.07.20-15.49.50:856][417]LogWorld: Bringing up level for play took: 0.001031
+[2020.07.20-15.49.50:857][417]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.07.20-15.49.50:860][417]PIE: Server logged in
+[2020.07.20-15.49.50:861][417]PIE: Play in editor total start time 0,173 seconds.
+[2020.07.20-15.49.55:544][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.20-15.49.55:544][688]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.07.20-15.49.55:544][688]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.07.20-15.49.55:544][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.49.55:557][688]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.20-15.49.55:559][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.49.55:601][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.20-15.49.55:602][688]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000112FBB8D300), frame # 110688
+[2020.07.20-15.49.55:602][688]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000112DC511600), frame # 110688
+[2020.07.20-15.49.55:604][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.07.20-15.49.55:632][689]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.07.20-15.50.00:297][910]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2020.07.20-15.50.27:506][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
+[2020.07.20-15.50.27:525][189]LogSavePackage: Moving '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/BP_PawnTank8C6A6E8D4F59EF8FF1DF58AC10AC2269.tmp' to '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2020.07.20-15.50.27:546][189]AssetCheck: New page: Asset Save: BP_PawnTank
+[2020.07.20-15.50.27:546][189]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2020.07.20-15.50.27:906][205]BlueprintLog: New page: Compile BP_PawnTank
+[2020.07.20-15.50.27:982][205]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.07.20-15.51.16:853][448]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.20-15.51.16:885][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.20-15.51.16:885][448]PIE: New page: PIE session: Main (20 lip 2020, 19:51:16)
+[2020.07.20-15.51.16:885][448]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.07.20-15.51.16:888][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003081s)
+[2020.07.20-15.51.16:889][448]LogAIModule: Creating AISystem for world Main
+[2020.07.20-15.51.16:889][448]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000113160D7E00), frame # 112448
+[2020.07.20-15.51.16:889][448]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001131275BB00), frame # 112448
+[2020.07.20-15.51.16:889][448]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2020.07.20-15.51.16:889][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004300s)
+[2020.07.20-15.51.16:915][448]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2020.07.20-15.51.16:916][448]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.20-15.51.16:916][448]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.20-15.51.16:916][448]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.20-15.51.16:916][448]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.20-15.51.16:916][448]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.20-15.51.16:916][448]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.20-15.51.16:916][448]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.20-15.51.16:916][448]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.20-15.51.16:916][448]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.20-15.51.16:916][448]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.20-15.51.16:921][448]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.20-15.51.16:921][448]LogAudioMixer: Display: 1: FrontRight
+[2020.07.20-15.51.17:016][448]LogAudioMixer: Display: Using Audio Device Głośniki (Conexant SmartAudio HD)
+[2020.07.20-15.51.17:016][448]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.20-15.51.17:016][448]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.20-15.51.17:016][448]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.20-15.51.17:017][448]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.20-15.51.17:035][448]LogInit: FAudioDevice initialized.
+[2020.07.20-15.51.17:057][448]LogLoad: Game class is 'GameModeBase'
+[2020.07.20-15.51.17:060][448]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.07.20-17.51.17
+[2020.07.20-15.51.17:061][448]LogWorld: Bringing up level for play took: 0.003351
+[2020.07.20-15.51.17:062][448]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.07.20-15.51.17:064][448]PIE: Server logged in
+[2020.07.20-15.51.17:065][448]PIE: Play in editor total start time 0,193 seconds.
+[2020.07.20-15.51.18:580][507]LogSlate: Window 'BP_PawnTank' being destroyed
+[2020.07.20-15.51.18:598][507]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.07.20-15.51.18:599][507]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.20-15.51.22:782][735]LogEditorViewport: Clicking on Actor (LMB): BP_PawnTank_C (BP_PawnTank)
+[2020.07.20-19.16.08:035][998]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-19.16.08:035][998]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-19.16.08:035][998]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Connection 195 seems to be dead!)
+[2020.07.20-19.16.08:035][998]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 195)
+[2020.07.20-19.16.08:035][998]LogHttp: Warning: 00000112A6713900: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.07.20-19.16.08:035][998]LogHttp: Warning: 00000112A6713900: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-19.16.08:035][998]LogHttp: Warning: 00000112A6713900: libcurl info message cache 4 (Closing connection 196)
+[2020.07.20-19.16.08:036][998]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-19.28.07:986][144]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-19.28.07:987][144]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-19.28.07:987][144]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Connection 199 seems to be dead!)
+[2020.07.20-19.28.07:987][144]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 199)
+[2020.07.20-19.28.07:987][144]LogHttp: Warning: 00000112A6713900: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.07.20-19.28.07:987][144]LogHttp: Warning: 00000112A6713900: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-19.28.07:987][144]LogHttp: Warning: 00000112A6713900: libcurl info message cache 4 (Closing connection 200)
+[2020.07.20-19.28.07:987][144]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-19.30.19:120][535]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-19.30.19:120][535]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-19.30.19:120][535]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-19.30.19:120][535]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 201)
+[2020.07.20-19.30.19:458][536]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-19.40.07:906][290]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-19.40.07:906][290]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-19.40.07:906][290]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Connection 203 seems to be dead!)
+[2020.07.20-19.40.07:906][290]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 203)
+[2020.07.20-19.40.07:906][290]LogHttp: Warning: 00000112A6713900: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.07.20-19.40.07:906][290]LogHttp: Warning: 00000112A6713900: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-19.40.07:906][290]LogHttp: Warning: 00000112A6713900: libcurl info message cache 4 (Closing connection 204)
+[2020.07.20-19.40.07:907][290]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-19.42.19:040][681]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-19.42.19:040][681]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-19.42.19:040][681]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-19.42.19:040][681]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 205)
+[2020.07.20-19.42.19:378][682]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-19.44.30:503][ 73]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-19.44.30:503][ 73]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-19.44.30:503][ 73]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-19.44.30:503][ 73]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 206)
+[2020.07.20-19.44.30:841][ 74]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-19.46.42:356][466]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-19.46.42:356][466]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-19.46.42:356][466]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-19.46.42:356][466]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 207)
+[2020.07.20-19.46.42:356][466]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-19.56.07:944][152]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-19.56.07:944][152]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-19.56.07:944][152]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Connection 209 seems to be dead!)
+[2020.07.20-19.56.07:944][152]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 209)
+[2020.07.20-19.56.07:944][152]LogHttp: Warning: 00000112A6713900: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.07.20-19.56.07:945][152]LogHttp: Warning: 00000112A6713900: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-19.56.07:945][152]LogHttp: Warning: 00000112A6713900: libcurl info message cache 4 (Closing connection 210)
+[2020.07.20-19.56.07:945][152]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-19.58.08:305][511]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-19.58.08:308][511]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-19.58.08:308][511]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-19.58.08:308][511]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 211)
+[2020.07.20-19.58.08:644][512]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-20.00.19:823][903]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-20.00.19:823][903]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-20.00.19:823][903]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-20.00.19:823][903]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 212)
+[2020.07.20-20.00.20:168][904]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-20.02.31:347][295]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-20.02.31:347][295]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-20.02.31:348][295]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-20.02.31:348][295]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 213)
+[2020.07.20-20.02.31:681][296]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-20.04.42:834][687]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-20.04.42:835][687]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-20.04.42:835][687]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-20.04.42:835][687]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 214)
+[2020.07.20-20.04.43:166][688]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-20.06.54:296][ 79]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-20.06.54:296][ 79]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-20.06.54:296][ 79]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-20.06.54:296][ 79]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 215)
+[2020.07.20-20.06.54:632][ 80]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-20.17.57:190][ 55]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-20.17.57:190][ 55]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-20.17.57:190][ 55]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Connection 216 seems to be dead!)
+[2020.07.20-20.17.57:190][ 55]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 216)
+[2020.07.20-20.17.57:190][ 55]LogHttp: Warning: 00000112A6713900: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.07.20-20.17.57:190][ 55]LogHttp: Warning: 00000112A6713900: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-20.17.57:190][ 55]LogHttp: Warning: 00000112A6713900: libcurl info message cache 4 (Closing connection 217)
+[2020.07.20-20.17.57:532][ 56]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-20.20.08:707][447]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-20.20.08:707][447]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-20.20.08:707][447]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-20.20.08:707][447]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 218)
+[2020.07.20-20.20.09:040][448]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-20.22.20:149][839]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-20.22.20:149][839]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-20.22.20:149][839]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-20.22.20:149][839]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 219)
+[2020.07.20-20.22.20:482][840]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-20.24.20:984][199]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-20.24.20:984][199]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-20.24.20:984][199]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-20.24.20:984][199]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 220)
+[2020.07.20-20.24.21:320][200]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-20.26.32:465][591]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-20.26.32:465][591]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-20.26.32:465][591]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-20.26.32:465][591]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 221)
+[2020.07.20-20.26.32:803][592]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-20.28.43:938][983]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-20.28.43:938][983]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-20.28.43:938][983]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-20.28.43:938][983]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 222)
+[2020.07.20-20.28.44:272][984]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-20.30.55:373][375]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-20.30.55:373][375]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-20.30.55:373][375]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-20.30.55:373][375]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 223)
+[2020.07.20-20.30.55:706][376]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-20.46.07:950][ 95]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-20.46.07:951][ 95]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-20.46.07:951][ 95]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Connection 225 seems to be dead!)
+[2020.07.20-20.46.07:951][ 95]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 225)
+[2020.07.20-20.46.07:951][ 95]LogHttp: Warning: 00000112A6713900: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.07.20-20.46.07:951][ 95]LogHttp: Warning: 00000112A6713900: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-20.46.07:951][ 95]LogHttp: Warning: 00000112A6713900: libcurl info message cache 4 (Closing connection 226)
+[2020.07.20-20.46.08:286][ 96]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-20.48.08:783][455]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-20.48.08:783][455]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-20.48.08:783][455]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-20.48.08:783][455]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 227)
+[2020.07.20-20.48.09:118][456]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-21.00.07:936][599]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-21.00.07:937][599]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-21.00.07:937][599]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Connection 230 seems to be dead!)
+[2020.07.20-21.00.07:937][599]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 230)
+[2020.07.20-21.00.07:937][599]LogHttp: Warning: 00000112A6713900: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.07.20-21.00.07:937][599]LogHttp: Warning: 00000112A6713900: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-21.00.07:937][599]LogHttp: Warning: 00000112A6713900: libcurl info message cache 4 (Closing connection 231)
+[2020.07.20-21.00.08:268][600]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-21.02.19:804][992]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-21.02.19:804][992]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-21.02.19:804][992]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-21.02.19:804][992]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 232)
+[2020.07.20-21.02.19:804][992]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-21.04.20:253][351]LogHttp: Warning: 00000112A6713900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.20-21.04.20:254][351]LogHttp: Warning: 00000112A6713900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.20-21.04.20:254][351]LogHttp: Warning: 00000112A6713900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.20-21.04.20:254][351]LogHttp: Warning: 00000112A6713900: libcurl info message cache 1 (Closing connection 233)
+[2020.07.20-21.04.20:585][352]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.20-21.17.56:080][781]LogTemp: Resetting audio stream to device id 
+[2020.07.20-21.17.56:111][781]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.20-21.17.56:112][781]LogAudioMixer: Display: 1: FrontRight
+[2020.07.20-21.17.56:251][781]LogTemp: Resetting audio stream to device id 
+[2020.07.20-21.17.56:284][781]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.20-21.17.56:284][781]LogAudioMixer: Display: 1: FrontRight
+[2020.07.21-08.48.24:858][789]LogTemp: Resetting audio stream to device id 
+[2020.07.21-08.48.25:079][789]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.21-08.48.25:079][789]LogAudioMixer: Display: 1: FrontRight
+[2020.07.21-08.48.25:534][789]LogTemp: Resetting audio stream to device id 
+[2020.07.21-08.48.25:748][789]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.21-08.48.25:748][789]LogAudioMixer: Display: 1: FrontRight
+[2020.07.21-08.48.25:987][791]LogHttp: Warning: 00000112A6712400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.21-08.48.25:987][791]LogHttp: Warning: 00000112A6712400: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.07.21-08.48.25:987][791]LogHttp: Warning: 00000112A6712400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1129c397f70 [can pipeline])
+[2020.07.21-08.48.25:987][791]LogHttp: Warning: 00000112A6712400: libcurl info message cache 1 (Re-using existing connection! (#237) with host datarouter.ol.epicgames.com)
+[2020.07.21-08.48.25:987][791]LogHttp: Warning: 00000112A6712400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.220.243.247) port 443 (#237))
+[2020.07.21-08.48.25:987][791]LogHttp: Warning: 00000112A6712400: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.07.21-08.48.25:987][791]LogHttp: Warning: 00000112A6712400: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.07.21-08.48.25:987][791]LogHttp: Warning: 00000112A6712400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.07.21-08.48.25:987][791]LogHttp: Warning: 00000112A6712400: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.07.21-08.48.25:987][791]LogHttp: Warning: 00000112A6712400: libcurl info message cache 7 (Closing connection 237)
+[2020.07.21-08.48.26:306][792]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.21-11.43.41:832][164]LogTemp: Resetting audio stream to device id 
+[2020.07.21-11.43.41:877][164]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.21-11.43.41:877][164]LogAudioMixer: Display: 1: FrontRight
+[2020.07.21-11.43.42:046][164]LogTemp: Resetting audio stream to device id 
+[2020.07.21-11.43.42:090][164]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.21-11.43.42:090][164]LogAudioMixer: Display: 1: FrontRight
+[2020.07.21-19.56.31:324][172]LogTemp: Resetting audio stream to device id 
+[2020.07.21-19.56.32:617][172]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.21-19.56.32:617][172]LogAudioMixer: Display: 1: FrontRight
+[2020.07.21-19.56.32:754][172]LogTemp: Resetting audio stream to device id 
+[2020.07.21-19.56.32:828][172]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.21-19.56.32:828][172]LogAudioMixer: Display: 1: FrontRight
+[2020.07.21-19.56.33:010][173]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.21-19.56.33:025][173]LogTemp: Resetting audio stream to device id 
+[2020.07.21-19.56.33:087][173]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.21-19.56.33:087][173]LogAudioMixer: Display: 1: FrontRight
+[2020.07.21-19.56.33:239][174]LogHttp: Warning: 00000112A6710F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.21-19.56.33:240][174]LogHttp: Warning: 00000112A6710F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.21-19.56.33:240][174]LogHttp: Warning: 00000112A6710F00: libcurl info message cache 0 (Connection 291 seems to be dead!)
+[2020.07.21-19.56.33:240][174]LogHttp: Warning: 00000112A6710F00: libcurl info message cache 1 (Closing connection 291)
+[2020.07.21-19.56.33:241][174]LogHttp: Warning: 00000112A6710F00: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.21-19.56.33:241][174]LogHttp: Warning: 00000112A6710F00: libcurl info message cache 3 (Closing connection 292)
+[2020.07.21-19.56.33:241][174]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.21-19.56.34:302][177]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.21-19.56.34:302][177]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.21-19.56.34:303][177]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.21-19.56.34:364][177]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.22-13.07.56:278][ 40]LogTemp: Resetting audio stream to device id 
+[2020.07.22-13.07.56:315][ 40]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.22-13.07.56:315][ 40]LogAudioMixer: Display: 1: FrontRight
+[2020.07.22-13.07.56:458][ 40]LogTemp: Resetting audio stream to device id 
+[2020.07.22-13.07.56:497][ 40]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.22-13.07.56:497][ 40]LogAudioMixer: Display: 1: FrontRight
+[2020.07.22-16.50.57:001][ 50]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.07.22-16.50.57:590][ 50]LogTemp: Resetting audio stream to device id 
+[2020.07.22-16.50.58:184][ 50]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.22-16.50.58:184][ 50]LogAudioMixer: Display: 1: FrontRight
+[2020.07.22-16.50.58:502][ 50]LogTemp: Resetting audio stream to device id 
+[2020.07.22-16.50.58:578][ 50]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.22-16.50.58:578][ 50]LogAudioMixer: Display: 1: FrontRight
+[2020.07.22-16.50.59:062][ 53]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.22-16.50.59:068][ 53]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.07.22-16.50.59:069][ 53]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1129c397f70 [can pipeline])
+[2020.07.22-16.50.59:069][ 53]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Re-using existing connection! (#697) with host datarouter.ol.epicgames.com)
+[2020.07.22-16.50.59:069][ 53]LogHttp: Warning: 00000112A679A400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.224.85.57) port 443 (#697))
+[2020.07.22-16.50.59:069][ 53]LogHttp: Warning: 00000112A679A400: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.07.22-16.50.59:069][ 53]LogHttp: Warning: 00000112A679A400: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.07.22-16.50.59:069][ 53]LogHttp: Warning: 00000112A679A400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.07.22-16.50.59:069][ 53]LogHttp: Warning: 00000112A679A400: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.07.22-16.50.59:069][ 53]LogHttp: Warning: 00000112A679A400: libcurl info message cache 7 (Closing connection 697)
+[2020.07.22-16.50.59:399][ 54]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.23-12.47.02:889][ 13]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.23-12.47.02:891][ 13]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 0 (No error)
+[2020.07.23-12.47.02:891][ 13]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1129c397f70 [can pipeline])
+[2020.07.23-12.47.02:891][ 13]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Re-using existing connection! (#978) with host datarouter.ol.epicgames.com)
+[2020.07.23-12.47.02:891][ 13]LogHttp: Warning: 00000112A679A400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.86.222.40) port 443 (#978))
+[2020.07.23-12.47.02:891][ 13]LogHttp: Warning: 00000112A679A400: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.07.23-12.47.02:891][ 13]LogHttp: Warning: 00000112A679A400: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2020.07.23-12.47.02:891][ 13]LogHttp: Warning: 00000112A679A400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.07.23-12.47.02:891][ 13]LogHttp: Warning: 00000112A679A400: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.07.23-12.47.02:891][ 13]LogHttp: Warning: 00000112A679A400: libcurl info message cache 7 (Closing connection 978)
+[2020.07.23-12.47.02:891][ 13]LogHttp: Warning: 00000112A679A400: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.07.23-12.47.03:224][ 14]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.23-12.49.03:796][374]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.23-12.49.03:796][374]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.23-12.49.03:796][374]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.23-12.49.03:796][374]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Closing connection 979)
+[2020.07.23-12.49.03:796][374]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.23-12.51.04:288][733]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.23-12.51.04:288][733]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.23-12.51.04:288][733]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.23-12.51.04:288][733]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Closing connection 980)
+[2020.07.23-12.51.04:626][734]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.23-12.53.05:065][ 93]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.23-12.53.05:065][ 93]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.23-12.53.05:065][ 93]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.23-12.53.05:065][ 93]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Closing connection 981)
+[2020.07.23-12.53.05:397][ 94]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.23-12.55.05:815][453]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.23-12.55.05:815][453]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.23-12.55.05:816][453]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.23-12.55.05:816][453]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Closing connection 982)
+[2020.07.23-12.55.06:148][454]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.23-12.57.06:590][813]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.23-12.57.06:590][813]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.23-12.57.06:590][813]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.23-12.57.06:590][813]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Closing connection 983)
+[2020.07.23-12.57.06:923][814]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.23-12.59.07:445][173]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.23-12.59.07:445][173]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.23-12.59.07:445][173]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.23-12.59.07:445][173]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Closing connection 984)
+[2020.07.23-12.59.07:779][174]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.23-13.01.08:286][533]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.23-13.01.08:286][533]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.23-13.01.08:286][533]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.23-13.01.08:286][533]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Closing connection 985)
+[2020.07.23-13.01.08:622][534]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.23-13.03.09:034][893]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.23-13.03.09:034][893]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.23-13.03.09:034][893]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.23-13.03.09:034][893]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Closing connection 986)
+[2020.07.23-13.03.09:366][894]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.23-13.05.09:731][253]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.23-13.05.09:731][253]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.23-13.05.09:731][253]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.23-13.05.09:731][253]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Closing connection 987)
+[2020.07.23-13.05.10:065][254]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.23-13.07.10:506][613]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.23-13.07.10:506][613]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.23-13.07.10:506][613]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.23-13.07.10:507][613]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Closing connection 988)
+[2020.07.23-13.07.10:840][614]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.23-13.09.11:377][973]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.23-13.09.11:377][973]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.23-13.09.11:378][973]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.23-13.09.11:378][973]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Closing connection 989)
+[2020.07.23-13.09.11:718][974]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.23-13.11.12:170][333]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.23-13.11.12:170][333]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.23-13.11.12:170][333]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.23-13.11.12:170][333]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Closing connection 990)
+[2020.07.23-13.11.12:504][334]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.23-13.13.13:003][693]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.23-13.13.13:003][693]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.23-13.13.13:003][693]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.23-13.13.13:003][693]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Closing connection 991)
+[2020.07.23-13.13.13:342][694]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.23-13.15.13:793][ 53]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.23-13.15.13:793][ 53]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.23-13.15.13:793][ 53]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.23-13.15.13:793][ 53]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Closing connection 992)
+[2020.07.23-13.15.14:133][ 54]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.23-13.17.14:642][413]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.23-13.17.14:642][413]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.23-13.17.14:642][413]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.23-13.17.14:642][413]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Closing connection 993)
+[2020.07.23-13.17.14:978][414]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.23-13.19.15:509][773]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.23-13.19.15:509][773]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.23-13.19.15:509][773]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.23-13.19.15:509][773]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Closing connection 994)
+[2020.07.23-13.19.15:848][774]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.23-13.20.50:344][ 53]LogTemp: Resetting audio stream to device id 
+[2020.07.23-13.20.50:377][ 53]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.23-13.20.50:378][ 53]LogAudioMixer: Display: 1: FrontRight
+[2020.07.23-13.20.50:540][ 53]LogTemp: Resetting audio stream to device id 
+[2020.07.23-13.20.50:581][ 53]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.23-13.20.50:581][ 53]LogAudioMixer: Display: 1: FrontRight
+[2020.07.23-13.20.58:414][ 77]LogTemp: Resetting audio stream to device id 
+[2020.07.24-05.42.13:219][ 77]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.07.24-05.42.13:220][ 77]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-05.42.13:220][ 77]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-05.42.13:497][ 77]LogTemp: Resetting audio stream to device id 
+[2020.07.24-05.42.13:572][ 77]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-05.42.13:572][ 77]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-05.42.13:896][ 78]LogTemp: Resetting audio stream to device id 
+[2020.07.24-05.42.13:954][ 78]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-05.42.13:954][ 78]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-05.42.14:161][ 79]LogHttp: Warning: 00000112A679A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.24-05.42.14:162][ 79]LogHttp: Warning: 00000112A679A400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.24-05.42.14:162][ 79]LogHttp: Warning: 00000112A679A400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.24-05.42.14:162][ 79]LogHttp: Warning: 00000112A679A400: libcurl info message cache 1 (Closing connection 995)
+[2020.07.24-05.42.14:176][ 80]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.24-05.42.14:508][ 81]LogHttp: Warning: 00000112A679B200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.24-05.42.14:508][ 81]LogHttp: Warning: 00000112A679B200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.24-05.42.14:508][ 81]LogHttp: Warning: 00000112A679B200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.24-05.42.14:508][ 81]LogHttp: Warning: 00000112A679B200: libcurl info message cache 1 (Closing connection 996)
+[2020.07.24-05.42.14:841][ 82]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.24-05.42.31:939][132]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.24-09.58.47:859][ 76]LogTemp: Resetting audio stream to device id 
+[2020.07.24-09.58.47:898][ 76]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-09.58.47:898][ 76]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-09.58.48:050][ 76]LogTemp: Resetting audio stream to device id 
+[2020.07.24-09.58.48:092][ 76]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-09.58.48:093][ 76]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-12.35.32:503][ 90]LogTemp: Resetting audio stream to device id 
+[2020.07.24-12.35.35:249][ 90]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.07.24-12.35.35:250][ 90]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-12.35.35:250][ 90]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-12.35.35:415][ 90]LogTemp: Resetting audio stream to device id 
+[2020.07.24-12.35.35:509][ 90]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-12.35.35:509][ 90]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-12.35.35:743][ 91]LogTemp: Resetting audio stream to device id 
+[2020.07.24-12.35.35:803][ 91]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-12.35.35:803][ 91]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-12.35.36:422][ 94]LogHttp: Warning: 00000112EE11B200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.24-12.35.36:423][ 94]LogHttp: Warning: 00000112EE11B200: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.07.24-12.35.36:423][ 94]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1129c397f70 [can pipeline])
+[2020.07.24-12.35.36:423][ 94]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 1 (Re-using existing connection! (#1105) with host datarouter.ol.epicgames.com)
+[2020.07.24-12.35.36:423][ 94]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.87.181.63) port 443 (#1105))
+[2020.07.24-12.35.36:424][ 94]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.07.24-12.35.36:424][ 94]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.07.24-12.35.36:424][ 94]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.07.24-12.35.36:424][ 94]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.07.24-12.35.36:424][ 94]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 7 (Closing connection 1105)
+[2020.07.24-12.35.36:424][ 94]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.24-12.54.06:553][408]LogTemp: Resetting audio stream to device id 
+[2020.07.24-12.54.06:633][408]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-12.54.06:633][408]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-12.54.06:752][408]LogTemp: Resetting audio stream to device id 
+[2020.07.24-12.54.06:777][408]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-12.54.06:777][408]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-12.54.08:555][414]LogTemp: Resetting audio stream to device id 
+[2020.07.24-20.06.14:140][414]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.07.24-20.06.14:140][414]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-20.06.14:141][414]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-20.06.14:356][414]LogTemp: Resetting audio stream to device id 
+[2020.07.24-20.06.14:457][414]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-20.06.14:457][414]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-20.06.14:723][415]LogTemp: Resetting audio stream to device id 
+[2020.07.24-20.06.14:772][415]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.24-20.06.14:772][415]LogAudioMixer: Display: 1: FrontRight
+[2020.07.24-20.06.15:319][418]LogHttp: Warning: 00000112EE11B200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.24-20.06.15:319][418]LogHttp: Warning: 00000112EE11B200: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.07.24-20.06.15:319][418]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1129c397f70 [can pipeline])
+[2020.07.24-20.06.15:319][418]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 1 (Re-using existing connection! (#1113) with host datarouter.ol.epicgames.com)
+[2020.07.24-20.06.15:319][418]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.234.56.61) port 443 (#1113))
+[2020.07.24-20.06.15:319][418]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.07.24-20.06.15:319][418]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.07.24-20.06.15:319][418]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.07.24-20.06.15:319][418]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.07.24-20.06.15:320][418]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 7 (Closing connection 1113)
+[2020.07.24-20.06.15:320][418]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.25-10.23.09:134][707]LogTemp: Resetting audio stream to device id 
+[2020.07.25-10.23.09:238][707]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.25-10.23.09:239][707]LogAudioMixer: Display: 1: FrontRight
+[2020.07.25-10.23.09:634][707]LogTemp: Resetting audio stream to device id 
+[2020.07.25-10.23.09:734][707]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.25-10.23.09:734][707]LogAudioMixer: Display: 1: FrontRight
+[2020.07.25-10.23.10:079][708]LogTemp: Resetting audio stream to device id 
+[2020.07.25-10.23.10:208][708]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.25-10.23.10:208][708]LogAudioMixer: Display: 1: FrontRight
+[2020.07.26-13.28.49:900][733]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.07.26-13.28.50:488][733]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.28.51:282][735]LogHttp: Warning: 00000112EE11B200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.26-13.28.51:282][735]LogHttp: Warning: 00000112EE11B200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.26-13.28.51:283][735]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 0 (Connection 1326 seems to be dead!)
+[2020.07.26-13.28.51:283][735]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 1 (Closing connection 1326)
+[2020.07.26-13.28.51:283][735]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.26-13.28.51:283][735]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 3 (Closing connection 1327)
+[2020.07.26-13.28.51:618][736]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.26-13.28.51:877][736]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.28.51:877][736]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.28.51:878][736]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.28.51:919][736]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.28.53:798][742]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.28.53:799][742]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.28.53:799][742]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.28.53:932][742]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.28.55:617][748]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.28.55:617][748]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.28.55:617][748]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.28.55:937][748]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.28.57:738][754]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.28.57:738][754]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.28.57:738][754]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.28.57:946][754]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.28.59:759][760]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.28.59:759][760]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.28.59:759][760]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.28.59:951][760]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.01:780][766]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.01:780][766]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.01:780][766]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.01:962][766]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.03:801][772]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.03:801][772]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.03:801][772]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.03:970][772]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.05:719][778]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.05:719][778]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.05:719][778]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.05:978][778]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.07:836][784]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.07:836][784]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.07:836][784]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.07:994][784]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.09:852][790]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.09:852][790]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.09:852][790]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.09:997][790]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.11:868][796]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.11:868][796]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.11:868][796]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.12:002][796]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.13:885][802]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.13:885][802]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.13:885][802]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.14:022][802]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.15:800][808]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.15:800][808]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.15:800][808]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.16:033][808]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.17:917][814]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.17:917][814]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.17:917][814]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.18:053][814]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.19:932][820]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.19:932][820]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.19:932][820]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.20:070][820]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.21:847][826]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.21:848][826]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.21:848][826]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.22:077][826]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.23:866][832]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.23:866][832]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.23:866][832]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.24:087][832]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.25:784][838]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.25:784][838]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.25:784][838]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.26:094][838]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.27:898][844]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.27:898][844]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.27:898][844]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.28:102][844]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.29:914][850]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.29:914][850]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.29:914][850]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.30:117][850]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.31:932][856]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.31:932][856]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.31:932][856]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.32:126][856]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.33:952][862]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.33:952][862]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.33:952][862]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.34:148][862]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.35:868][868]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.35:868][868]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.35:868][868]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.36:150][868]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.37:985][874]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.37:985][874]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.37:985][874]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.38:158][874]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.40:000][880]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.40:000][880]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.40:000][880]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.40:168][880]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.42:016][886]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.42:016][886]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.42:016][886]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.42:178][886]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.44:029][892]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.44:029][892]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.44:030][892]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.44:195][892]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.45:946][898]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.45:946][898]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.45:946][898]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.46:199][898]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.48:062][904]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.48:062][904]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.48:062][904]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.48:215][904]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.50:081][910]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.50:082][910]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.50:082][910]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.50:224][910]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.52:098][916]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.52:098][916]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.52:098][916]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.52:240][916]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.54:014][922]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.54:014][922]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.54:015][922]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.54:241][922]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.55:932][928]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.55:932][928]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.55:932][928]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.56:255][928]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.29.58:051][934]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.29.58:051][934]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.29.58:052][934]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.29.58:265][934]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.00:071][940]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.00:071][940]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.00:071][940]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.00:273][940]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.02:087][946]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.02:087][946]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.02:087][946]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.02:287][946]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.04:104][952]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.04:105][952]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.04:105][952]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.04:315][952]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.06:018][958]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.06:018][958]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.06:019][958]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.06:341][958]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.08:139][964]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.08:139][964]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.08:139][964]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.08:352][964]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.10:155][970]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.10:155][970]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.10:155][970]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.10:377][970]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.12:172][976]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.12:172][976]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.12:172][976]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.12:397][976]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.14:188][982]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.14:188][982]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.14:189][982]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.14:416][982]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.16:105][988]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.16:106][988]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.16:106][988]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.16:432][988]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.18:222][994]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.18:222][994]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.18:222][994]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.18:442][994]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.20:235][  0]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.20:235][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.20:235][  0]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.20:447][  0]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.22:251][  6]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.22:251][  6]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.22:251][  6]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.22:456][  6]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.24:262][ 12]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.24:262][ 12]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.24:262][ 12]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.24:457][ 12]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.26:178][ 18]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.26:178][ 18]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.26:178][ 18]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.26:465][ 18]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.28:294][ 24]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.28:294][ 24]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.28:294][ 24]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.28:475][ 24]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.30:311][ 30]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.30:311][ 30]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.30:311][ 30]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.30:476][ 30]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.32:327][ 36]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.32:327][ 36]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.32:327][ 36]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.32:483][ 36]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.34:342][ 42]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.34:342][ 42]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.34:342][ 42]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.34:489][ 42]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.36:259][ 48]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.36:259][ 48]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.36:259][ 48]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.36:507][ 48]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.30.38:378][ 54]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.07.26-13.30.38:378][ 54]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.07.26-13.30.38:379][ 54]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.07.26-13.30.38:523][ 54]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.26-13.32.14:299][339]LogTemp: Resetting audio stream to device id 
+[2020.07.26-13.32.14:378][339]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.26-13.32.14:378][339]LogAudioMixer: Display: 1: FrontRight
+[2020.07.26-13.32.14:505][339]LogTemp: Resetting audio stream to device id 
+[2020.07.26-13.32.14:528][339]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.26-13.32.14:528][339]LogAudioMixer: Display: 1: FrontRight
+[2020.07.26-21.18.30:786][346]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.07.26-21.18.30:878][346]LogTemp: Resetting audio stream to device id 
+[2020.07.26-21.18.32:318][346]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.26-21.18.32:318][346]LogAudioMixer: Display: 1: FrontRight
+[2020.07.26-21.18.32:441][346]LogTemp: Resetting audio stream to device id 
+[2020.07.26-21.18.32:493][346]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.26-21.18.32:493][346]LogAudioMixer: Display: 1: FrontRight
+[2020.07.26-21.18.32:620][347]LogTemp: Resetting audio stream to device id 
+[2020.07.26-21.18.32:673][347]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.26-21.18.32:673][347]LogAudioMixer: Display: 1: FrontRight
+[2020.07.26-21.18.43:969][382]LogHttp: Warning: 00000112EE11B200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.26-21.18.43:970][382]LogHttp: Warning: 00000112EE11B200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.26-21.18.43:970][382]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 0 (Connection 1328 seems to be dead!)
+[2020.07.26-21.18.43:970][382]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 1 (Closing connection 1328)
+[2020.07.26-21.18.43:970][382]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.07.26-21.18.43:970][382]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.26-21.18.43:970][382]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 4 (Closing connection 1329)
+[2020.07.26-21.18.43:970][382]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.28-09.19.32:343][121]LogTemp: Resetting audio stream to device id 
+[2020.07.28-09.19.32:454][121]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-09.19.32:455][121]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-09.19.32:815][121]LogTemp: Resetting audio stream to device id 
+[2020.07.28-09.19.32:900][121]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-09.19.32:900][121]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-09.19.33:230][122]LogTemp: Resetting audio stream to device id 
+[2020.07.28-09.19.33:349][122]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-09.19.33:349][122]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-19.10.51:398][148]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.07.28-19.11.10:742][205]LogHttp: Warning: 00000112EE11B200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.28-19.11.10:742][205]LogHttp: Warning: 00000112EE11B200: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.07.28-19.11.10:742][205]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1129c397f70 [can pipeline])
+[2020.07.28-19.11.10:744][205]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 1 (Re-using existing connection! (#1937) with host datarouter.ol.epicgames.com)
+[2020.07.28-19.11.10:744][205]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (23.23.43.12) port 443 (#1937))
+[2020.07.28-19.11.10:744][205]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.07.28-19.11.10:744][205]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.07.28-19.11.10:744][205]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.07.28-19.11.10:744][205]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.07.28-19.11.10:744][205]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 7 (Closing connection 1937)
+[2020.07.28-19.11.11:078][206]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.28-21.09.13:391][329]LogTemp: Resetting audio stream to device id 
+[2020.07.28-21.09.13:432][329]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-21.09.13:432][329]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-21.09.13:732][330]LogTemp: Resetting audio stream to device id 
+[2020.07.28-21.09.13:779][330]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-21.09.13:779][330]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-21.09.18:441][344]LogTemp: Resetting audio stream to device id 
+[2020.07.28-21.58.32:253][344]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.07.28-21.58.32:253][344]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-21.58.32:253][344]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-21.58.32:377][344]LogTemp: Resetting audio stream to device id 
+[2020.07.28-21.58.32:434][344]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-21.58.32:434][344]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-21.58.32:571][345]LogTemp: Resetting audio stream to device id 
+[2020.07.28-21.58.32:593][345]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.28-21.58.32:593][345]LogAudioMixer: Display: 1: FrontRight
+[2020.07.28-21.58.32:880][347]LogHttp: Warning: 00000112EE11B200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.28-21.58.32:880][347]LogHttp: Warning: 00000112EE11B200: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.07.28-21.58.32:881][347]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1129c397f70 [can pipeline])
+[2020.07.28-21.58.32:881][347]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 1 (Re-using existing connection! (#1986) with host datarouter.ol.epicgames.com)
+[2020.07.28-21.58.32:881][347]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.2.253.54) port 443 (#1986))
+[2020.07.28-21.58.32:881][347]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.07.28-21.58.32:881][347]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.07.28-21.58.32:881][347]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.07.28-21.58.32:881][347]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.07.28-21.58.32:881][347]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 7 (Closing connection 1986)
+[2020.07.28-21.58.33:213][348]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.29-09.17.40:259][939]LogTemp: Resetting audio stream to device id 
+[2020.07.29-09.17.40:357][939]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.29-09.17.40:358][939]LogAudioMixer: Display: 1: FrontRight
+[2020.07.29-09.17.40:770][939]LogTemp: Resetting audio stream to device id 
+[2020.07.29-09.17.40:861][939]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.29-09.17.40:862][939]LogAudioMixer: Display: 1: FrontRight
+[2020.07.29-09.17.41:210][940]LogTemp: Resetting audio stream to device id 
+[2020.07.29-09.17.41:343][940]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.29-09.17.41:343][940]LogAudioMixer: Display: 1: FrontRight
+[2020.07.30-16.36.19:956][950]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.07.30-16.36.20:727][950]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.30-16.36.55:771][ 47]LogTemp: Resetting audio stream to device id 
+[2020.07.30-16.36.55:802][ 47]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.30-16.36.55:802][ 47]LogAudioMixer: Display: 1: FrontRight
+[2020.07.30-16.36.55:923][ 47]LogTemp: Resetting audio stream to device id 
+[2020.07.30-16.36.55:957][ 47]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.30-16.36.55:957][ 47]LogAudioMixer: Display: 1: FrontRight
+[2020.07.30-16.37.47:760][ 54]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.07.30-16.37.48:806][ 54]LogTemp: Resetting audio stream to device id 
+[2020.07.30-16.37.49:279][ 54]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.30-16.37.49:279][ 54]LogAudioMixer: Display: 1: FrontRight
+[2020.07.30-16.37.49:641][ 54]LogTemp: Resetting audio stream to device id 
+[2020.07.30-16.37.49:713][ 54]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.30-16.37.49:713][ 54]LogAudioMixer: Display: 1: FrontRight
+[2020.07.30-16.37.52:207][ 63]LogHttp: Warning: 00000112EE11B200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.30-16.37.52:208][ 63]LogHttp: Warning: 00000112EE11B200: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.07.30-16.37.52:208][ 63]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1129c397f70 [can pipeline])
+[2020.07.30-16.37.52:209][ 63]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 1 (Re-using existing connection! (#2222) with host datarouter.ol.epicgames.com)
+[2020.07.30-16.37.52:209][ 63]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.224.85.57) port 443 (#2222))
+[2020.07.30-16.37.52:209][ 63]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.07.30-16.37.52:209][ 63]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.07.30-16.37.52:209][ 63]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.07.30-16.37.52:209][ 63]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.07.30-16.37.52:209][ 63]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 7 (Closing connection 2222)
+[2020.07.30-16.37.52:542][ 64]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.30-18.39.33:487][851]LogHttp: Warning: 00000112EE11B200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.30-18.39.33:490][851]LogHttp: Warning: 00000112EE11B200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.30-18.39.33:491][851]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 0 (Connection 2267 seems to be dead!)
+[2020.07.30-18.39.33:491][851]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 1 (Closing connection 2267)
+[2020.07.30-18.39.33:491][851]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.07.30-18.39.33:491][851]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.30-18.39.33:491][851]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 4 (Closing connection 2268)
+[2020.07.30-18.39.33:822][852]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.30-18.41.34:486][212]LogHttp: Warning: 00000112EE11B200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.30-18.41.34:486][212]LogHttp: Warning: 00000112EE11B200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.30-18.41.34:486][212]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.30-18.41.34:486][212]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 1 (Closing connection 2269)
+[2020.07.30-18.41.34:486][212]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.30-18.43.35:107][572]LogHttp: Warning: 00000112EE11B200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.30-18.43.35:107][572]LogHttp: Warning: 00000112EE11B200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.07.30-18.43.35:107][572]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.07.30-18.43.35:107][572]LogHttp: Warning: 00000112EE11B200: libcurl info message cache 1 (Closing connection 2270)
+[2020.07.30-18.43.35:107][572]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76A1EE81-4E05-0457-B6B6-35B66DB96416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=c7647f5e4723f795d1a91f837b08aad2%7C7117d0b82afb4e4d8013890d53dcc394%7Ca6b786c6-9d5f-47b7-83cd-c153661d4aaa&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.30-18.43.57:246][637]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.07.30-19.15.50:541][388]LogUObjectHash: Compacting FUObjectHashTables data took 136.79ms
+[2020.07.30-19.15.52:048][388]LogSlate: Window 'Save Content' being destroyed
+[2020.07.30-19.15.52:113][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.07.30-19.15.52:168][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.07.30-19.15.52:357][388]LogSavePackage: Moving '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Main00CBE5884C9213065F6AFF9ADD2AC0AC.tmp' to '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Maps/Main.umap'
+[2020.07.30-19.15.52:943][388]LogFileHelpers: Saving map 'Main' took 0.866
+[2020.07.30-19.15.52:949][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2020.07.30-19.15.53:141][388]LogSavePackage: Moving '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Saved/Main_BuiltDataC8BC7FB04430F0A59F4E599BA9ED9121.tmp' to '../../../../Toon_Tanks_Game/Toon_Tanks/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2020.07.30-19.15.53:266][388]LogSlate: Window 'ToonTanks - Unreal Editor' being destroyed
+[2020.07.30-19.15.53:799][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.30-19.15.53:800][388]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.07.30-19.15.53:818][388]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.07.30-19.15.53:843][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.30-19.15.53:875][388]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.07.30-19.15.53:882][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.30-19.15.54:049][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.30-19.15.54:164][388]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001131275BB00), frame # 1369388
+[2020.07.30-19.15.54:165][388]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000113160D7E00), frame # 1369388
+[2020.07.30-19.15.54:231][388]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2020.07.30-19.15.55:485][388]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.30-19.15.55:486][388]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2020.07.30-19.15.55:486][388]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2020.07.30-19.15.55:519][389]Cmd: QUIT_EDITOR
+[2020.07.30-19.15.55:519][389]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.07.30-19.15.55:554][389]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.07.30-19.15.56:112][389]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.07.30-19.15.56:165][389]LogExit: Preparing to exit.
+[2020.07.30-19.15.56:628][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:628][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:629][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:632][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:632][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:632][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:634][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:634][389]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.07.30-19.15.56:635][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:635][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:635][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:635][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:635][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:635][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:635][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:635][389]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.07.30-19.15.56:636][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:636][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:636][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:636][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:636][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:636][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:636][389]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.07.30-19.15.56:636][389]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.07.30-19.15.56:732][389]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.07.30-19.15.56:869][389]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.07.30-19.15.56:873][389]LogExit: Editor shut down
+[2020.07.30-19.15.56:887][389]LogExit: Transaction tracking system shut down
